@@ -1,4 +1,4 @@
-const recipes = [
+const meals = [
     {
         "name": "Mac & Cheese",
     },
@@ -31,13 +31,13 @@ const recipes = [
     }
 ];
 
-function getRecipe() {
-    const randomRecipe = Math.floor(Math.random() * recipes.length);
-    console.log(recipes[randomRecipe].name);
+function getMeal() {
+    const randomMeal = Math.floor(Math.random() * meals.length);
+    console.log(meals[randomMeal].name);
     //next steps: 1. add images 2. print name and image to dom 3. HTML, CSS
 }
 
-getRecipe();
+getMeal();
 
 
 
