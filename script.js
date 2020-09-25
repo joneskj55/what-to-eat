@@ -1,4 +1,4 @@
-const meals = [
+const breakfastMeals = [
     {
         "name": "Mac & Cheese",
     },
@@ -30,16 +30,96 @@ const meals = [
         "name": "Burgers"
     }
 ];
-const showMealName = document.getElementById('meal-name');
-//const showMealImage = document.getElementById('meal-image');
+const lunchMeals = [
+    {
+        "name": "Mac & Cheese",
+    },
+    {
+        "name": "Pizza",
+    },
+    {
+        "name": "Cook Out",
+    },
+    {
+        "name": "Order",
+    },
+    {
+        "name": "Sandwich",
+    },
+    {
+        "name": "Turkey",
+    },
+    {
+        "name": "Chili",
+    },
+    {
+        "name": "Tacos",
+    },
+    {
+        "name": "Spaghetti",
+    },
+    {
+        "name": "Burgers"
+    }
+];
+const dinnerMeals = [
+    {
+        "name": "Mac & Cheese",
+    },
+    {
+        "name": "Pizza",
+    },
+    {
+        "name": "Cook Out",
+    },
+    {
+        "name": "Order",
+    },
+    {
+        "name": "Sandwich",
+    },
+    {
+        "name": "Turkey",
+    },
+    {
+        "name": "Chili",
+    },
+    {
+        "name": "Tacos",
+    },
+    {
+        "name": "Spaghetti",
+    },
+    {
+        "name": "Burgers"
+    }
+];
 
-function getMeal() {
-    const randomMeal = Math.floor(Math.random() * meals.length);
-    console.log(meals[randomMeal].name);
-    //next steps: 1. add images 2. print name and image to dom 3. HTML, CSS
-    showMealName.innerText = meals[randomMeal].name;
-    //showMealImage.innerText = meals[randomMeal].image;
+const showBreakfastName = document.getElementById('breakfast-name');
+//const showBreakfastImage = document.getElementById('breakfast-image');
+const showLunchName = document.getElementById('lunch-name');
+//const showLunchImage = document.getElementById('lunch-image');
+const showDinnerName = document.getElementById('dinner-name');
+//const showDinnerImage = document.getElementById('dinner-image');
+
+function getBreakfast() {
+    const randomMeal = Math.floor(Math.random() * breakfastMeals.length);
+    showBreakfastName.innerText = breakfastMeals[randomMeal].name;
+    //showBreakfastImage.innerText = breakfastMeals[randomMeal].image;
 }
 
+function getLunch() {
+    const randomMeal = Math.floor(Math.random() * lunchMeals.length);
+    showLunchName.innerText = lunchMeals[randomMeal].name;
+    //showLunchImage.innerText = lunchMeals[randomMeal].image;
+}
+
+function getDinner() {
+    const randomMeal = Math.floor(Math.random() * dinnerMeals.length);
+    showDinnerName.innerText = dinnerMeals[randomMeal].name;
+    //showDinnerImage.innerText = dinnerMeals[randomMeal].image;
+}
+
+//next steps: 1. add images 2. fill lists 3. CSS
 
 
