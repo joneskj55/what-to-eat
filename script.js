@@ -120,6 +120,4 @@ function getDinner() {
     //showDinnerImage.innerText = dinnerMeals[randomMeal].image;
 }
 
-//next steps: 1. add images 2. fill lists 3. CSS
-
 
