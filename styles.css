@@ -13,11 +13,5 @@
 }
 
 .sections {
-    grid-row-start: 1;
-    grid-row-end: 3;
     margin-top: 10%;
-}
-
-button {
-    justify-content: center;
 }
