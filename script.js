@@ -41,7 +41,5 @@ function getMeal() {
     //showMealImage.innerText = meals[randomMeal].image;
 }
 
-getMeal();
-
 
 
