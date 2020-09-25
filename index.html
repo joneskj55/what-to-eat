@@ -8,11 +8,23 @@
 <body>
 <h1 class="header">What To Eat?</h1>
 <h2 class="sub-header">Can't decide what to eat? Click below for some inspiration.</h2>
-<div id="meal-name"></div>
-<div id="meal-image"></div>
+<div class="container">
+<div id="breakfast-section" class="sections">
+    <img class="meal-image" alt="breakfast meal choice" src=""/>
+    <p id="meal-name"></p>
 <button onclick="getMeal()">Breakfast</button>
-<button onclick="getLunch()">Lunch</button>
-<button onclick="getDinner()">Dinner</button>
+</div>
+<div id="lunch-section" class="sections">
+    <img class="meal-image" alt="lunch meal choice" src=""/>
+    <p class="meal-name"></p>
+    <button onclick="getMeal()">Lunch</button>
+</div>
+<div id="dinner-section" class="sections">
+    <img class="meal-image" alt="dinner meal choice" src=""/>
+    <p class="meal-name"></p>
+    <button onclick="getMeal()">Dinner</button>
+</div>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
