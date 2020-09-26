@@ -15,6 +15,7 @@ function getBreakfast() {
         }
     };
     request.send();
+    window.reload(false);
     document.getElementById('breakfast-image').removeChild(breakfastImg);
 }
 
@@ -31,6 +32,7 @@ function getLunch() {
         }
     };
     request.send();
+    window.reload(false);
     document.getElementById('lunch-image').removeChild(lunchImg);
 }
 
@@ -47,6 +49,7 @@ function getDinner() {
         }
     };
     request.send();
+    window.reload(false);
     document.getElementById('dinner-image').removeChild(dinnerImg);
 }
 
