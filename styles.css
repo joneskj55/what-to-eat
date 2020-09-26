@@ -20,7 +20,7 @@ body {
     margin-top: 10%;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 920px) {
     .container {
         display: flex;
         flex-direction: column;
