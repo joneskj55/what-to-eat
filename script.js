@@ -15,7 +15,7 @@ function getBreakfast() {
         }
     };
     request.send();
-    window.reload(false);
+    window.reload(false); // this stops that ugly reloading
     document.getElementById('breakfast-image').removeChild(breakfastImg);
 }
 
