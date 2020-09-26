@@ -1,3 +1,5 @@
+const img = document.createElement('img');
+
 function getBreakfast() {
     let request = new XMLHttpRequest();
     request.open('GET', 'data/breakfast.json', true);
@@ -6,12 +8,12 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
-            let img = document.createElement('img');
             img.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(img);
         }
     };
     request.send();
+    document.getElementById('breakfast-image').removeChild(img);
 }
 
 function getLunch() {
@@ -22,12 +24,12 @@ function getLunch() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('lunch-name').innerText = data[randomMeal].name;
-            let img = document.createElement('img');
             img.src = data[randomMeal].image;
             document.getElementById('lunch-image').appendChild(img);
         }
     };
     request.send();
+    document.getElementById('lunch-image').removeChild(img);
 }
 
 function getDinner() {
@@ -38,12 +40,12 @@ function getDinner() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('dinner-name').innerText = data[randomMeal].name;
-            let img = document.createElement('img');
             img.src = data[randomMeal].image;
             document.getElementById('dinner-image').appendChild(img);
         }
     };
     request.send();
+    document.getElementById('dinner-image').removeChild(img);
 }
 
 
