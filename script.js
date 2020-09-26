@@ -1,4 +1,6 @@
-const img = document.createElement('img');
+const breakfastImg = document.createElement('img');
+const lunchImg = document.createElement('img');
+const dinnerImg = document.createElement('img');
 
 function getBreakfast() {
     let request = new XMLHttpRequest();
@@ -8,12 +10,12 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
-            img.src = data[randomMeal].image;
-            document.getElementById('breakfast-image').appendChild(img);
+            breakfastImg.src = data[randomMeal].image;
+            document.getElementById('breakfast-image').appendChild(breakfastImg);
         }
     };
     request.send();
-    document.getElementById('breakfast-image').removeChild(img);
+    document.getElementById('breakfast-image').removeChild(breakfastImg);
 }
 
 function getLunch() {
@@ -24,12 +26,12 @@ function getLunch() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('lunch-name').innerText = data[randomMeal].name;
-            img.src = data[randomMeal].image;
-            document.getElementById('lunch-image').appendChild(img);
+            lunchImg.src = data[randomMeal].image;
+            document.getElementById('lunch-image').appendChild(lunchImg);
         }
     };
     request.send();
-    document.getElementById('lunch-image').removeChild(img);
+    document.getElementById('lunch-image').removeChild(lunchImg);
 }
 
 function getDinner() {
@@ -40,12 +42,12 @@ function getDinner() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('dinner-name').innerText = data[randomMeal].name;
-            img.src = data[randomMeal].image;
-            document.getElementById('dinner-image').appendChild(img);
+            dinnerImg.src = data[randomMeal].image;
+            document.getElementById('dinner-image').appendChild(dinnerImg);
         }
     };
     request.send();
-    document.getElementById('dinner-image').removeChild(img);
+    document.getElementById('dinner-image').removeChild(dinnerImg);
 }
 
 
