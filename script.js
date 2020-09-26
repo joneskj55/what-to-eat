@@ -15,8 +15,8 @@ function getBreakfast() {
         }
     };
     request.send();
-    window.reload(false); // this stops that ugly reloading
-    document.getElementById('breakfast-image').removeChild(breakfastImg);
+    window.reload(false); //this stops that ugly reloading
+    document.getElementById('breakfast-image').removeChild(breakfastImg); //remove last image on repeated clicks
 }
 
 function getLunch() {
