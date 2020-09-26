@@ -1,103 +1,3 @@
-const breakfastMeals = [
-    {
-        "name": "Mac & Cheese",
-        "image": "../avocado-toast.jpg"
-    },
-    {
-        "name": "Pizza",
-        "image": "veggies.jpg"
-    },
-    {
-        "name": "Cook Out",
-        "image": "noodles.jpg"
-    },
-    // {
-    //     "name": "Order",
-    // },
-    // {
-    //     "name": "Sandwich",
-    // },
-    // {
-    //     "name": "Turkey",
-    // },
-    // {
-    //     "name": "Chili",
-    // },
-    // {
-    //     "name": "Tacos",
-    // },
-    // {
-    //     "name": "Spaghetti",
-    // },
-    // {
-    //     "name": "Burgers"
-    // }
-];
-const lunchMeals = [
-    {
-        "name": "Mac & Cheese",
-    },
-    {
-        "name": "Pizza",
-    },
-    {
-        "name": "Cook Out",
-    },
-    {
-        "name": "Order",
-    },
-    {
-        "name": "Sandwich",
-    },
-    {
-        "name": "Turkey",
-    },
-    {
-        "name": "Chili",
-    },
-    {
-        "name": "Tacos",
-    },
-    {
-        "name": "Spaghetti",
-    },
-    {
-        "name": "Burgers"
-    }
-];
-const dinnerMeals = [
-    {
-        "name": "Mac & Cheese",
-    },
-    {
-        "name": "Pizza",
-    },
-    {
-        "name": "Cook Out",
-    },
-    {
-        "name": "Order",
-    },
-    {
-        "name": "Sandwich",
-    },
-    {
-        "name": "Turkey",
-    },
-    {
-        "name": "Chili",
-    },
-    {
-        "name": "Tacos",
-    },
-    {
-        "name": "Spaghetti",
-    },
-    {
-        "name": "Burgers"
-    }
-];
-
 const showBreakfastName = document.getElementById('breakfast-name');
 const showBreakfastImage = document.getElementById('breakfast-image');
 const showLunchName = document.getElementById('lunch-name');
@@ -106,21 +6,51 @@ const showDinnerName = document.getElementById('dinner-name');
 const showDinnerImage = document.getElementById('dinner-image');
 
 function getBreakfast() {
-    const randomMeal = Math.floor(Math.random() * breakfastMeals.length);
-    showBreakfastName.innerText = breakfastMeals[randomMeal].name;
-    showBreakfastImage.innerText = breakfastMeals[randomMeal].image;
+    let request = new XMLHttpRequest();
+    request.open('GET', 'data/breakfast.json', true);
+    request.onload = function () {
+        if (request.status >= 200 && request.status < 400) {
+            let data = JSON.parse(request.responseText);
+            const randomMeal = Math.floor(Math.random() * data.length);
+            showBreakfastName.innerText = data[randomMeal].name;
+            let img = document.createElement('img');
+            img.src = showBreakfastImage.innerText = data[randomMeal].image;
+            document.getElementById('breakfast-image').appendChild(img);
+        }
+    };
+    request.send();
 }
 
 function getLunch() {
-    const randomMeal = Math.floor(Math.random() * lunchMeals.length);
-    showLunchName.innerText = lunchMeals[randomMeal].name;
-    showLunchImage.innerText = lunchMeals[randomMeal].image;
+    let request = new XMLHttpRequest();
+    request.open('GET', 'data/lunch.json', true);
+    request.onload = function () {
+        if (request.status >= 200 && request.status < 400) {
+            let data = JSON.parse(request.responseText);
+            const randomMeal = Math.floor(Math.random() * data.length);
+            showLunchName.innerText = data[randomMeal].name;
+            let img = document.createElement('img');
+            img.src = showLunchImage.innerText = data[randomMeal].image;
+            document.getElementById('lunch-image').appendChild(img);
+        }
+    };
+    request.send();
 }
 
 function getDinner() {
-    const randomMeal = Math.floor(Math.random() * dinnerMeals.length);
-    showDinnerName.innerText = dinnerMeals[randomMeal].name;
-    showDinnerImage.innerText = dinnerMeals[randomMeal].image;
+    let request = new XMLHttpRequest();
+    request.open('GET', 'data/dinner.json', true);
+    request.onload = function () {
+        if (request.status >= 200 && request.status < 400) {
+            let data = JSON.parse(request.responseText);
+            const randomMeal = Math.floor(Math.random() * data.length);
+            showDinnerName.innerText = data[randomMeal].name;
+            let img = document.createElement('img');
+            img.src = showDinnerImage.innerText = data[randomMeal].image;
+            document.getElementById('dinner-image').appendChild(img);
+        }
+    };
+    request.send();
 }
 
 

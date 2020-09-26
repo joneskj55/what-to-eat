@@ -1,0 +1,42 @@
+[
+  {
+    "name": "dinner1",
+    "image": "images/avocado-toast.jpg"
+  },
+  {
+    "name": "dinner2",
+    "image": "images/veggies.jpg"
+  },
+  {
+    "name": "dinner3",
+    "image": "images/noodles.jpg"
+  },
+  {
+    "name": "dinner4",
+    "image": "images/avocado-toast.jpg"
+  },
+  {
+    "name": "dinner5",
+    "image": "images/veggies.jpg"
+  },
+  {
+    "name": "dinner6",
+    "image": "images/noodles.jpg"
+  },
+  {
+    "name": "dinner7",
+    "image": "images/avocado-toast.jpg"
+  },
+  {
+    "name": "dinner8",
+    "image": "images/veggies.jpg"
+  },
+  {
+    "name": "dinner9",
+    "image": "images/noodles.jpg"
+  },
+  {
+    "name": "dinner10",
+    "image": "images/noodles.jpg"
+  }
+]
