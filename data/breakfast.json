@@ -1,42 +1,42 @@
 [
   {
-    "name": "breakfast1",
+    "name": "Omelettes",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "breakfast2",
+    "name": "Pancakes",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "breakfast3",
+    "name": "French Toast",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "breakfast4",
+    "name": "Fruit Smoothie",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "breakfast5",
+    "name": "Eggs Benedict",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "breakfast6",
+    "name": "Bagel with Cream Cheese",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "breakfast7",
+    "name": "Belgian Waffles",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "breakfast8",
+    "name": "Breakfast Burrito",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "breakfast9",
+    "name": "Bacon & Eggs",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "breakfast10",
+    "name": "Crepes",
     "image": "images/noodles.jpg"
   }
 ]

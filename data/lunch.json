@@ -1,42 +1,42 @@
 [
   {
-    "name": "lunch1",
+    "name": "Noodles",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "lunch2",
+    "name": "Avocado Toast",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "lunch3",
+    "name": "Veggie Plate",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "lunch4",
+    "name": "Tacos",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "lunch5",
+    "name": "Quesadillas",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "lunch6",
+    "name": "Pizza",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "lunch7",
+    "name": "Burgers",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "lunch8",
+    "name": "Salad",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "lunch9",
+    "name": "Grilled Cheese",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "lunch10",
+    "name": "Calzone",
     "image": "images/noodles.jpg"
   }
 ]

@@ -1,42 +1,42 @@
 [
   {
-    "name": "dinner1",
+    "name": "Fajitas",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "dinner2",
+    "name": "Chicken Marsala",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "dinner3",
+    "name": "Steak",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "dinner4",
+    "name": "Fish",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "dinner5",
+    "name": "Pizza",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "dinner6",
+    "name": "Penne",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "dinner7",
+    "name": "BBQ Chicken",
     "image": "images/avocado-toast.jpg"
   },
   {
-    "name": "dinner8",
+    "name": "Spaghetti & Meatballs",
     "image": "images/veggies.jpg"
   },
   {
-    "name": "dinner9",
+    "name": "Stuffed Peppers",
     "image": "images/noodles.jpg"
   },
   {
-    "name": "dinner10",
+    "name": "Lasagna",
     "image": "images/noodles.jpg"
   }
 ]
