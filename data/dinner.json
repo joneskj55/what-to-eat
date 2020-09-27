@@ -1,42 +1,42 @@
 [
   {
-    "name": "Fajitas",
-    "image": "images/avocado-toast.jpg"
+    "name": "Pad Thai",
+    "image": "images/pad-thai.jpg"
   },
   {
-    "name": "Chicken Marsala",
-    "image": "images/veggies.jpg"
+    "name": "Grilled Chicken",
+    "image": "images/marsala.jpg"
   },
   {
     "name": "Steak",
-    "image": "images/noodles.jpg"
+    "image": "images/steak.jpg"
   },
   {
-    "name": "Fish",
-    "image": "images/avocado-toast.jpg"
+    "name": "Salmon",
+    "image": "images/salmon.jpg"
   },
   {
     "name": "Pizza",
-    "image": "images/veggies.jpg"
+    "image": "images/pizza.jpg"
   },
   {
     "name": "Penne",
-    "image": "images/noodles.jpg"
+    "image": "images/penne.jpg"
   },
   {
     "name": "BBQ Chicken",
-    "image": "images/avocado-toast.jpg"
+    "image": "images/bbq-chicken.jpg"
   },
   {
     "name": "Spaghetti & Meatballs",
-    "image": "images/veggies.jpg"
+    "image": "images/spaghetti.jpg"
   },
   {
     "name": "Stuffed Peppers",
-    "image": "images/noodles.jpg"
+    "image": "images/stuffed-pepper.jpg"
   },
   {
     "name": "Lasagna",
-    "image": "images/noodles.jpg"
+    "image": "images/lasagna.jpg"
   }
 ]
