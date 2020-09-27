@@ -13,30 +13,30 @@
   },
   {
     "name": "Tacos",
-    "image": "images/noodles.jpg"
+    "image": "images/tacos.jpg"
   },
   {
-    "name": "Quesadillas",
-    "image": "images/avocado-toast.jpg"
+    "name": "Lobster",
+    "image": "images/lobster.jpg"
   },
   {
     "name": "Pizza",
-    "image": "images/veggies.jpg"
+    "image": "images/pizza.jpg"
   },
   {
     "name": "Burgers",
-    "image": "images/noodles.jpg"
+    "image": "images/burger.jpg"
   },
   {
     "name": "Salad",
-    "image": "images/avocado-toast.jpg"
+    "image": "images/salad.jpg"
   },
   {
     "name": "Grilled Cheese",
-    "image": "images/veggies.jpg"
+    "image": "images/grilled-cheese.jpg"
   },
   {
-    "name": "Calzone",
-    "image": "images/noodles.jpg"
+    "name": "Chicken Wings",
+    "image": "images/wings.jpg"
   }
 ]
