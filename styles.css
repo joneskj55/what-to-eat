@@ -46,9 +46,7 @@ button:hover {
     cursor: pointer;
 }
 
-button:focus {
-    outline: none;
-}
+
 
 @media (max-width: 920px) {
     .container {
