@@ -15,6 +15,7 @@ function getBreakfast() {
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
             getRecipe();
+            showInstructions();
             hideRecipe();
         }
     };
@@ -57,9 +58,13 @@ function getRecipe() {
 
 function showRecipe() {
     document.getElementById('recipe').classList.remove('hidden');
+    document.getElementById('instructions').className = 'hidden';
 }
 
 function hideRecipe() {
     document.getElementById('recipe').className = 'hidden';
 }
 
+function showInstructions() {
+    document.getElementById('instructions').classList.remove('hidden');
+}
