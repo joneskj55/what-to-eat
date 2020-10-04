@@ -1,7 +1,7 @@
 const breakfastImg = document.createElement('img');
 const lunchImg = document.createElement('img');
 const dinnerImg = document.createElement('img');
-let ingredients;
+let recipe;
 
 function getBreakfast() {
     let request = new XMLHttpRequest();
@@ -11,7 +11,7 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
-            ingredients = data[randomMeal].ingredients;
+            recipe = data[randomMeal].recipe;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
             getBreakfastRecipe();
@@ -23,12 +23,12 @@ function getBreakfast() {
 }
 
 function getBreakfastRecipe() {
-    document.getElementById('breakfast-recipe').innerText = ingredients;
+    document.getElementById('breakfast-recipe').innerText = recipe;
 }
 
 function showBreakfastRecipe() {
     document.getElementById('breakfast-recipe').classList.remove('hidden');
-    document.getElementById('breakfast-instructions').className = 'hidden';
+    document.getElementById('breakfast-click-instructions').className = 'hidden';
 }
 
 function hideBreakfastRecipe() {
@@ -36,7 +36,7 @@ function hideBreakfastRecipe() {
 }
 
 function showBreakfastInstructions() {
-    document.getElementById('breakfast-instructions').classList.remove('hidden');
+    document.getElementById('breakfast-click-instructions').classList.remove('hidden');
 }
 
 function getLunch() {
@@ -47,7 +47,7 @@ function getLunch() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('lunch-name').innerText = data[randomMeal].name;
-            ingredients = data[randomMeal].ingredients;
+            recipe = data[randomMeal].recipe;
             lunchImg.src = data[randomMeal].image;
             document.getElementById('lunch-image').appendChild(lunchImg);
             getLunchRecipe();
@@ -59,12 +59,12 @@ function getLunch() {
 }
 
 function getLunchRecipe() {
-    document.getElementById('lunch-recipe').innerText = ingredients;
+    document.getElementById('lunch-recipe').innerText = recipe;
 }
 
 function showLunchRecipe() {
     document.getElementById('lunch-recipe').classList.remove('hidden');
-    document.getElementById('lunch-instructions').className = 'hidden';
+    document.getElementById('lunch-click-instructions').className = 'hidden';
 }
 
 function hideLunchRecipe() {
@@ -72,7 +72,7 @@ function hideLunchRecipe() {
 }
 
 function showLunchInstructions() {
-    document.getElementById('lunch-instructions').classList.remove('hidden');
+    document.getElementById('lunch-click-instructions').classList.remove('hidden');
 }
 
 function getDinner() {
@@ -83,7 +83,7 @@ function getDinner() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('dinner-name').innerText = data[randomMeal].name;
-            ingredients = data[randomMeal].ingredients;
+            recipe = data[randomMeal].recipe;
             dinnerImg.src = data[randomMeal].image;
             document.getElementById('dinner-image').appendChild(dinnerImg);
             getDinnerRecipe();
@@ -95,12 +95,12 @@ function getDinner() {
 }
 
 function getDinnerRecipe() {
-    document.getElementById('dinner-recipe').innerText = ingredients;
+    document.getElementById('dinner-recipe').innerText = recipe;
 }
 
 function showDinnerRecipe() {
     document.getElementById('dinner-recipe').classList.remove('hidden');
-    document.getElementById('dinner-instructions').className = 'hidden';
+    document.getElementById('dinner-click-instructions').className = 'hidden';
 }
 
 function hideDinnerRecipe() {
@@ -108,6 +108,6 @@ function hideDinnerRecipe() {
 }
 
 function showDinnerInstructions() {
-    document.getElementById('dinner-instructions').classList.remove('hidden');
+    document.getElementById('dinner-click-instructions').classList.remove('hidden');
 }
 
