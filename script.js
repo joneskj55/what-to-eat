@@ -54,3 +54,12 @@ function getDinner() {
 }
 
 
+
+//function getRecipe() {
+     //get whatever the current meal is
+
+     //render currentMeal.ingredients to recipe id
+//}
+
+
+

@@ -1,43 +1,53 @@
 [
   {
     "name": "Omelettes",
-    "image": "images/omelette.jpg"
+    "image": "images/omelette.jpg",
+    "ingredients": "ingredients1"
   },
   {
     "name": "Pancakes",
-    "image": "images/pancakes.jpg"
+    "image": "images/pancakes.jpg",
+    "ingredients": "ingredients2"
   },
   {
     "name": "French Toast",
-    "image": "images/french-toast.jpg"
+    "image": "images/french-toast.jpg",
+    "ingredients": "ingredients3"
   },
   {
     "name": "Fruit Smoothie",
-    "image": "images/smoothie.jpg"
+    "image": "images/smoothie.jpg",
+    "ingredients": "ingredients4"
   },
   {
     "name": "Eggs Benedict",
-    "image": "images/eggs-benedict.jpg"
+    "image": "images/eggs-benedict.jpg",
+    "ingredients": "ingredients5"
   },
   {
     "name": "Bagel with Cream Cheese",
-    "image": "images/bagel.jpg"
+    "image": "images/bagel.jpg",
+    "ingredients": "ingredients6"
   },
   {
     "name": "Belgian Waffles",
-    "image": "images/waffle.jpg"
+    "image": "images/waffle.jpg",
+    "ingredients": "ingredients7"
   },
   {
     "name": "Breakfast Burrito",
-    "image": "images/burrito.jpg"
+    "image": "images/burrito.jpg",
+    "ingredients": "ingredients8"
   },
   {
     "name": "Bacon & Eggs",
-    "image": "images/bacon.jpg"
+    "image": "images/bacon.jpg",
+    "ingredients": "ingredients9"
   },
   {
     "name": "Crepes",
-    "image": "images/crepes.jpg"
+    "image": "images/crepes.jpg",
+    "ingredients": "ingredients10"
   }
 ]
 
