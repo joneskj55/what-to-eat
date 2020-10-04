@@ -1,6 +1,7 @@
 const breakfastImg = document.createElement('img');
 const lunchImg = document.createElement('img');
 const dinnerImg = document.createElement('img');
+let ingredients;
 
 function getBreakfast() {
     let request = new XMLHttpRequest();
@@ -10,13 +11,14 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
+            ingredients  = data[randomMeal].ingredients;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
+            getRecipe();
+            hideRecipe();
         }
     };
     request.send();
-    window.reload(false); //this stops that ugly reloading
-    document.getElementById('breakfast-image').removeChild(breakfastImg); //remove last image on repeated clicks
 }
 
 function getLunch() {
@@ -32,8 +34,6 @@ function getLunch() {
         }
     };
     request.send();
-    window.reload(false);
-    document.getElementById('lunch-image').removeChild(lunchImg);
 }
 
 function getDinner() {
@@ -49,17 +49,17 @@ function getDinner() {
         }
     };
     request.send();
-    window.reload(false);
-    document.getElementById('dinner-image').removeChild(dinnerImg);
 }
 
+function getRecipe() {
+    document.getElementById('recipe').innerText = ingredients;
+}
 
+function showRecipe() {
+    document.getElementById('recipe').classList.remove('hidden');
+}
 
-//function getRecipe() {
-     //get whatever the current meal is
-
-     //render currentMeal.ingredients to recipe id
-//}
-
-
+function hideRecipe() {
+    document.getElementById('recipe').className = 'hidden';
+}
 
