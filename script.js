@@ -11,7 +11,7 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
-            ingredients  = data[randomMeal].ingredients;
+            ingredients = data[randomMeal].ingredients;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
             getRecipe();
