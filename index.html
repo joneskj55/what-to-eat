@@ -14,19 +14,23 @@
 <div class="container">
     <div class="sections">
         <h2 id="breakfast-name"></h2>
-        <div onclick="showRecipe()" id="breakfast-image"></div>
-        <div id="instructions" class="hidden">Click image for recipe</div>
-        <div id="recipe" class="hidden"></div>
+        <div onclick="showBreakfastRecipe()" id="breakfast-image"></div>
+        <div id="breakfast-instructions" class="hidden">Click image for recipe</div>
+        <div id="breakfast-recipe" class="hidden"></div>
         <button onclick="getBreakfast()">Breakfast</button>
     </div>
     <div class="sections">
         <h2 id="lunch-name"></h2>
-        <div id="lunch-image"></div>
+        <div onclick="showLunchRecipe()" id="lunch-image"></div>
+        <div id="lunch-instructions" class="hidden">Click image for recipe</div>
+        <div id="lunch-recipe" class="hidden"></div>
         <button onclick="getLunch()">Lunch</button>
     </div>
     <div class="sections">
         <h2 id="dinner-name"></h2>
-        <div id="dinner-image"></div>
+        <div onclick="showDinnerRecipe()" id="dinner-image"></div>
+        <div id="dinner-instructions" class="hidden">Click image for recipe</div>
+        <div id="dinner-recipe" class="hidden"></div>
         <button onclick="getDinner()">Dinner</button>
     </div>
 </div>

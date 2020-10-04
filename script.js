@@ -14,12 +14,29 @@ function getBreakfast() {
             ingredients = data[randomMeal].ingredients;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
-            getRecipe();
-            showInstructions();
-            hideRecipe();
+            getBreakfastRecipe();
+            showBreakfastInstructions();
+            hideBreakfastRecipe();
         }
     };
     request.send();
+}
+
+function getBreakfastRecipe() {
+    document.getElementById('breakfast-recipe').innerText = ingredients;
+}
+
+function showBreakfastRecipe() {
+    document.getElementById('breakfast-recipe').classList.remove('hidden');
+    document.getElementById('breakfast-instructions').className = 'hidden';
+}
+
+function hideBreakfastRecipe() {
+    document.getElementById('breakfast-recipe').className = 'hidden';
+}
+
+function showBreakfastInstructions() {
+    document.getElementById('breakfast-instructions').classList.remove('hidden');
 }
 
 function getLunch() {
@@ -30,11 +47,32 @@ function getLunch() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('lunch-name').innerText = data[randomMeal].name;
+            ingredients = data[randomMeal].ingredients;
             lunchImg.src = data[randomMeal].image;
             document.getElementById('lunch-image').appendChild(lunchImg);
+            getLunchRecipe();
+            showLunchInstructions();
+            hideLunchRecipe();
         }
     };
     request.send();
+}
+
+function getLunchRecipe() {
+    document.getElementById('lunch-recipe').innerText = ingredients;
+}
+
+function showLunchRecipe() {
+    document.getElementById('lunch-recipe').classList.remove('hidden');
+    document.getElementById('lunch-instructions').className = 'hidden';
+}
+
+function hideLunchRecipe() {
+    document.getElementById('lunch-recipe').className = 'hidden';
+}
+
+function showLunchInstructions() {
+    document.getElementById('lunch-instructions').classList.remove('hidden');
 }
 
 function getDinner() {
@@ -45,26 +83,31 @@ function getDinner() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('dinner-name').innerText = data[randomMeal].name;
+            ingredients = data[randomMeal].ingredients;
             dinnerImg.src = data[randomMeal].image;
             document.getElementById('dinner-image').appendChild(dinnerImg);
+            getDinnerRecipe();
+            showDinnerInstructions();
+            hideDinnerRecipe();
         }
     };
     request.send();
 }
 
-function getRecipe() {
-    document.getElementById('recipe').innerText = ingredients;
+function getDinnerRecipe() {
+    document.getElementById('dinner-recipe').innerText = ingredients;
 }
 
-function showRecipe() {
-    document.getElementById('recipe').classList.remove('hidden');
-    document.getElementById('instructions').className = 'hidden';
+function showDinnerRecipe() {
+    document.getElementById('dinner-recipe').classList.remove('hidden');
+    document.getElementById('dinner-instructions').className = 'hidden';
 }
 
-function hideRecipe() {
-    document.getElementById('recipe').className = 'hidden';
+function hideDinnerRecipe() {
+    document.getElementById('dinner-recipe').className = 'hidden';
 }
 
-function showInstructions() {
-    document.getElementById('instructions').classList.remove('hidden');
+function showDinnerInstructions() {
+    document.getElementById('dinner-instructions').classList.remove('hidden');
 }
+
