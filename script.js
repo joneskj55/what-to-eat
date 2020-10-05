@@ -48,6 +48,7 @@ function getLunch() {
             document.getElementById('lunch-image').appendChild(lunchImg);
             showLunchInstructions();
             getLunchRecipe();
+            hideLunchRecipe();
         }
     };
     request.send();
@@ -84,6 +85,7 @@ function getDinner() {
             document.getElementById('dinner-image').appendChild(dinnerImg);
             showDinnerInstructions();
             getDinnerRecipe();
+            hideDinnerRecipe();
         }
     };
     request.send();

@@ -1,42 +1,52 @@
 [
   {
     "name": "Pad Thai",
-    "image": "images/pad-thai.jpg"
+    "image": "images/pad-thai.jpg",
+    "recipe": "Pad Thai recipe will go here upon app completion"
   },
   {
     "name": "Grilled Chicken",
-    "image": "images/grilled-chicken.jpg"
+    "image": "images/grilled-chicken.jpg",
+    "recipe": "Grilled Chicken recipe will go here upon app completion"
   },
   {
     "name": "Steak",
-    "image": "images/steak.jpg"
+    "image": "images/steak.jpg",
+    "recipe": "Steak recipe will go here upon app completion"
   },
   {
     "name": "Salmon",
-    "image": "images/salmon.jpg"
+    "image": "images/salmon.jpg",
+    "recipe": "Salmon recipe will go here upon app completion"
   },
   {
     "name": "Pizza",
-    "image": "images/pizza.jpg"
+    "image": "images/pizza.jpg",
+    "recipe": "Pizza recipe will go here upon app completion"
   },
   {
     "name": "Penne",
-    "image": "images/penne.jpg"
+    "image": "images/penne.jpg",
+    "recipe": "Penne recipe will go here upon app completion"
   },
   {
     "name": "BBQ Chicken",
-    "image": "images/bbq-chicken.jpg"
+    "image": "images/bbq-chicken.jpg",
+    "recipe": "BBQ Chicken recipe will go here upon app completion"
   },
   {
     "name": "Spaghetti & Meatballs",
-    "image": "images/spaghetti.jpg"
+    "image": "images/spaghetti.jpg",
+    "recipe": "Spaghetti recipe will go here upon app completion"
   },
   {
     "name": "Stuffed Peppers",
-    "image": "images/stuffed-pepper.jpg"
+    "image": "images/stuffed-pepper.jpg",
+    "recipe": "Stuffed Peppers recipe will go here upon app completion"
   },
   {
     "name": "Lasagna",
-    "image": "images/lasagna.jpg"
+    "image": "images/lasagna.jpg",
+    "recipe": "Lasagna recipe will go here upon app completion"
   }
 ]

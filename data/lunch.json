@@ -1,42 +1,52 @@
 [
   {
     "name": "Noodles",
-    "image": "images/noodles.jpg"
+    "image": "images/noodles.jpg",
+    "recipe": "Noodle recipe will go here upon app completion"
   },
   {
     "name": "Avocado Toast",
-    "image": "images/avocado-toast.jpg"
+    "image": "images/avocado-toast.jpg",
+    "recipe": "Avocado Toast recipe will go here upon app completion"
   },
   {
     "name": "Veggie Plate",
-    "image": "images/veggies.jpg"
+    "image": "images/veggies.jpg",
+    "recipe": "Veggie recipe will go here upon app completion"
   },
   {
     "name": "Tacos",
-    "image": "images/tacos.jpg"
+    "image": "images/tacos.jpg",
+    "recipe": "Taco recipe will go here upon app completion"
   },
   {
     "name": "Lobster",
-    "image": "images/lobster.jpg"
+    "image": "images/lobster.jpg",
+    "recipe": "Lobster recipe will go here upon app completion"
   },
   {
     "name": "Pizza",
-    "image": "images/pizza.jpg"
+    "image": "images/pizza.jpg",
+    "recipe": "Pizza recipe will go here upon app completion"
   },
   {
     "name": "Burgers",
-    "image": "images/burger.jpg"
+    "image": "images/burger.jpg",
+    "recipe": "Burger recipe will go here upon app completion"
   },
   {
     "name": "Salad",
-    "image": "images/salad.jpg"
+    "image": "images/salad.jpg",
+    "recipe": "Salad recipe will go here upon app completion"
   },
   {
     "name": "Grilled Cheese",
-    "image": "images/grilled-cheese.jpg"
+    "image": "images/grilled-cheese.jpg",
+    "recipe": "Grilled Cheese recipe will go here upon app completion"
   },
   {
     "name": "Chicken Wings",
-    "image": "images/wings.jpg"
+    "image": "images/wings.jpg",
+    "recipe": "Chicken Wing recipe will go here upon app completion"
   }
 ]
