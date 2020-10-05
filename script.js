@@ -14,9 +14,8 @@ function getBreakfast() {
             recipe = data[randomMeal].recipe;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
-            getBreakfastRecipe();
             showBreakfastInstructions();
-            hideBreakfastRecipe();
+            getBreakfastRecipe();
         }
     };
     request.send();
@@ -31,14 +30,11 @@ function showBreakfastRecipe() {
     document.getElementById('breakfast-click-instructions').className = 'hidden';
 }
 
-function hideBreakfastRecipe() {
-    document.getElementById('breakfast-recipe').className = 'hidden';
-}
-
 function showBreakfastInstructions() {
     document.getElementById('breakfast-click-instructions').classList.remove('hidden');
 }
 
+// LUNCH
 function getLunch() {
     let request = new XMLHttpRequest();
     request.open('GET', 'data/lunch.json', true);
@@ -50,9 +46,8 @@ function getLunch() {
             recipe = data[randomMeal].recipe;
             lunchImg.src = data[randomMeal].image;
             document.getElementById('lunch-image').appendChild(lunchImg);
-            getLunchRecipe();
             showLunchInstructions();
-            hideLunchRecipe();
+            getLunchRecipe();
         }
     };
     request.send();
@@ -75,6 +70,7 @@ function showLunchInstructions() {
     document.getElementById('lunch-click-instructions').classList.remove('hidden');
 }
 
+// DINNER
 function getDinner() {
     let request = new XMLHttpRequest();
     request.open('GET', 'data/dinner.json', true);
@@ -86,9 +82,8 @@ function getDinner() {
             recipe = data[randomMeal].recipe;
             dinnerImg.src = data[randomMeal].image;
             document.getElementById('dinner-image').appendChild(dinnerImg);
-            getDinnerRecipe();
             showDinnerInstructions();
-            hideDinnerRecipe();
+            getDinnerRecipe();
         }
     };
     request.send();
@@ -109,5 +104,31 @@ function hideDinnerRecipe() {
 
 function showDinnerInstructions() {
     document.getElementById('dinner-click-instructions').classList.remove('hidden');
+}
+
+// Get the breakfast modal
+const modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+const btn = document.getElementById("breakfast-image");
+
+// Get the <span> element that closes the modal
+const span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function () {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
 }
 

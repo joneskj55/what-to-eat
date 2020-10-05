@@ -16,8 +16,16 @@
         <h2 id="breakfast-name"></h2>
         <div onclick="showBreakfastRecipe()" id="breakfast-image"></div>
         <div id="breakfast-click-instructions" class="hidden">Click image for recipe</div>
-        <div id="breakfast-recipe" class="hidden"></div>
         <button onclick="getBreakfast()">Breakfast</button>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="breakfast-recipe"></p>
+            </div>
+
+        </div>
     </div>
     <div class="sections">
         <h2 id="lunch-name"></h2>

@@ -2,52 +2,52 @@
   {
     "name": "Omelettes",
     "image": "images/omelette.jpg",
-    "recipe": "take one of those things and put it over there then do this then do that. "
+    "recipe": "Omelette recipe will go here upon app completion"
   },
   {
     "name": "Pancakes",
     "image": "images/pancakes.jpg",
-    "recipe": "ingredients2"
+    "recipe": "Pancake recipe will go here upon app completion"
   },
   {
     "name": "French Toast",
     "image": "images/french-toast.jpg",
-    "recipe": "ingredients3"
+    "recipe": "French Toast recipe will go here upon app completion"
   },
   {
     "name": "Fruit Smoothie",
     "image": "images/smoothie.jpg",
-    "recipe": "ingredients4"
+    "recipe": "Fruit Smoothie recipe will go here upon app completion"
   },
   {
     "name": "Eggs Benedict",
     "image": "images/eggs-benedict.jpg",
-    "recipe": "ingredients5"
+    "recipe": "Eggs Benedict recipe will go here upon app completion"
   },
   {
     "name": "Bagel with Cream Cheese",
     "image": "images/bagel.jpg",
-    "recipe": "ingredients6"
+    "recipe": "Bagel with Cream Cheese recipe will go here upon app completion"
   },
   {
     "name": "Belgian Waffles",
     "image": "images/waffle.jpg",
-    "recipe": "ingredients7"
+    "recipe": "Belgian Waffles recipe will go here upon app completion"
   },
   {
     "name": "Breakfast Burrito",
     "image": "images/burrito.jpg",
-    "recipe": "ingredients8"
+    "recipe": "Breakfast Burrito recipe will go here upon app completion"
   },
   {
     "name": "Bacon & Eggs",
     "image": "images/bacon.jpg",
-    "recipe": "ingredients9"
+    "recipe": "Bacon & Eggs recipe will go here upon app completion"
   },
   {
     "name": "Crepes",
     "image": "images/crepes.jpg",
-    "recipe": "ingredients10"
+    "recipe": "Crepes recipe will go here upon app completion"
   }
 ]
 
