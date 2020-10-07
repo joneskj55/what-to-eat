@@ -54,22 +54,11 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 920px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .sections {
-        flex-flow: row wrap;
-        flex-direction: column;
-    }
-}
-
 /*RECIPE MODAL*/
 #breakfast-recipe {
     text-align: left;
 }
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -80,8 +69,8 @@ button:hover {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
@@ -106,4 +95,16 @@ button:hover {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sections {
+        flex-flow: row wrap;
+        flex-direction: column;
+    }
 }
