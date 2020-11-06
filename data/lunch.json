@@ -2,51 +2,61 @@
   {
     "name": "Noodles",
     "image": "images/noodles.jpg",
-    "recipe": "Noodle recipe will go here upon app completion"
+    "recipe": "Noodle recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Avocado Toast",
     "image": "images/avocado-toast.jpg",
-    "recipe": "Avocado Toast recipe will go here upon app completion"
+    "recipe": "Avocado Toast recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Veggie Plate",
     "image": "images/veggies.jpg",
-    "recipe": "Veggie recipe will go here upon app completion"
+    "recipe": "Veggie recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Tacos",
     "image": "images/tacos.jpg",
-    "recipe": "Taco recipe will go here upon app completion"
+    "recipe": "Taco recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Lobster",
     "image": "images/lobster.jpg",
-    "recipe": "Lobster recipe will go here upon app completion"
+    "recipe": "Lobster recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Pizza",
     "image": "images/pizza.jpg",
-    "recipe": "Pizza recipe will go here upon app completion"
+    "recipe": "Pizza recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Burgers",
     "image": "images/burger.jpg",
-    "recipe": "Burger recipe will go here upon app completion"
+    "recipe": "Burger recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Salad",
     "image": "images/salad.jpg",
-    "recipe": "Salad recipe will go here upon app completion"
+    "recipe": "Salad recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Grilled Cheese",
     "image": "images/grilled-cheese.jpg",
-    "recipe": "Grilled Cheese recipe will go here upon app completion"
+    "recipe": "Grilled Cheese recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   },
   {
     "name": "Chicken Wings",
     "image": "images/wings.jpg",
-    "recipe": "Chicken Wing recipe will go here upon app completion"
+    "recipe": "Chicken Wing recipe will go here upon app completion",
+    "ingredients": ["test", "check", "yo", "almost", "word"]
   }
 ]
