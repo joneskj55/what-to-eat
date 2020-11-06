@@ -58,6 +58,10 @@ button:hover {
     text-align: left;
 }
 
+#ingredients {
+    text-align: left;
+}
+
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */

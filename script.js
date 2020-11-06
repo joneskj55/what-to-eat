@@ -2,6 +2,7 @@ const breakfastImg = document.createElement('img');
 const lunchImg = document.createElement('img');
 const dinnerImg = document.createElement('img');
 let recipe;
+let ingredients;
 
 function getBreakfast() {
     let request = new XMLHttpRequest();
@@ -11,6 +12,7 @@ function getBreakfast() {
             let data = JSON.parse(request.responseText);
             const randomMeal = Math.floor(Math.random() * data.length);
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
+            ingredients = data[randomMeal].ingredients;
             recipe = data[randomMeal].recipe;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
@@ -23,6 +25,13 @@ function getBreakfast() {
 
 function getBreakfastRecipe() {
     document.getElementById('breakfast-recipe').innerText = recipe;
+    let ul = document.getElementById("ingredients");
+    for (let i = 0; i < ingredients.length; i++) {
+        let ingredient = ingredients[i];
+        let li = document.createElement('li');
+        li.appendChild(document.createTextNode(ingredient));
+        ul.appendChild(li);
+    }
 }
 
 function showBreakfastRecipe() {
