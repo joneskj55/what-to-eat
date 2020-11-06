@@ -5,6 +5,7 @@ let recipe;
 let ingredients;
 
 function getBreakfast() {
+    clearIngredientsList();
     let request = new XMLHttpRequest();
     request.open('GET', 'data/breakfast.json', true);
     request.onload = function () {
@@ -41,6 +42,10 @@ function showBreakfastRecipe() {
 
 function showBreakfastInstructions() {
     document.getElementById('breakfast-click-instructions').classList.remove('hidden');
+}
+
+function clearIngredientsList() {
+    document.getElementById('ingredients').innerHTML = "";
 }
 
 // LUNCH
