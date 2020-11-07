@@ -22,9 +22,9 @@
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h1>Ingredients</h1>
-                <ol id="ingredients"></ol>
+                <ol id="ingredients" class="ingredients"></ol>
                 <h1>Recipe</h1>
-                <p id="breakfast-recipe"></p>
+                <p id="breakfast-recipe" class="recipe"></p>
             </div>
         </div>
     </div>
@@ -32,15 +32,33 @@
         <h2 id="lunch-name"></h2>
         <div onclick="showLunchRecipe()" id="lunch-image"></div>
         <div id="lunch-click-instructions" class="hidden">Click image for recipe</div>
-        <div id="lunch-recipe" class="hidden"></div>
         <button onclick="getLunch()">Lunch</button>
+        <div id="lunchModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Ingredients</h1>
+                <ol id="lunch-ingredients" class="ingredients"></ol>
+                <h1>Recipe</h1>
+                <p id="lunch-recipe" class="recipe"></p>
+            </div>
+        </div>
     </div>
     <div class="sections">
         <h2 id="dinner-name"></h2>
         <div onclick="showDinnerRecipe()" id="dinner-image"></div>
         <div id="dinner-click-instructions" class="hidden">Click image for recipe</div>
-        <div id="dinner-recipe" class="hidden"></div>
         <button onclick="getDinner()">Dinner</button>
+        <div id="dinnerModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h1>Ingredients</h1>
+                <ol id="dinner-ingredients" class="ingredients"></ol>
+                <h1>Recipe</h1>
+                <p id="dinner-recipe" class="recipe"></p>
+            </div>
+        </div>
     </div>
 </div>
 </body>

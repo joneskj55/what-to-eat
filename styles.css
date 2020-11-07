@@ -54,11 +54,11 @@ button:hover {
 }
 
 /*RECIPE MODAL*/
-#breakfast-recipe {
+.recipe {
     text-align: left;
 }
 
-#ingredients {
+.ingredients {
     text-align: left;
 }
 
