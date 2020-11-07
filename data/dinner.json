@@ -3,60 +3,60 @@
     "name": "Pad Thai",
     "image": "images/pad-thai.jpg",
     "recipe": "Pad Thai recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["pt1", "pt2", "pt3", "pt4", "pt5"]
   },
   {
     "name": "Grilled Chicken",
     "image": "images/grilled-chicken.jpg",
     "recipe": "Grilled Chicken recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["gc1", "gc2", "gc3"]
   },
   {
     "name": "Steak",
     "image": "images/steak.jpg",
     "recipe": "Steak recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["steak1", "steak2"]
   },
   {
     "name": "Salmon",
     "image": "images/salmon.jpg",
     "recipe": "Salmon recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["sal1", "sal2", "sal3"]
   },
   {
     "name": "Pizza",
     "image": "images/pizza.jpg",
     "recipe": "Pizza recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["pizza1", "pizza2", "pizza3", "pizza4"]
   },
   {
     "name": "Penne",
     "image": "images/penne.jpg",
     "recipe": "Penne recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["penne1", "penne2", "penne3"]
   },
   {
     "name": "BBQ Chicken",
     "image": "images/bbq-chicken.jpg",
     "recipe": "BBQ Chicken recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["bbq1", "bbq2", "bbq3", "bbq4", "bbq5"]
   },
   {
     "name": "Spaghetti & Meatballs",
     "image": "images/spaghetti.jpg",
     "recipe": "Spaghetti recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["spg1", "spg2", "spg3", "spg4", "spg5"]
   },
   {
     "name": "Stuffed Peppers",
     "image": "images/stuffed-pepper.jpg",
     "recipe": "Stuffed Peppers recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["sp1", "sp2"]
   },
   {
     "name": "Lasagna",
     "image": "images/lasagna.jpg",
     "recipe": "Lasagna recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["las1", "las2", "las3", "las4", "las5"]
   }
 ]

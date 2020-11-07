@@ -3,61 +3,61 @@
     "name": "Omelettes",
     "image": "images/omelette.jpg",
     "recipe": "Omelette recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["om1", "om2", "om3"]
   },
   {
     "name": "Pancakes",
     "image": "images/pancakes.jpg",
     "recipe": "Pancake recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["pan1", "pan2"]
   },
   {
     "name": "French Toast",
     "image": "images/french-toast.jpg",
     "recipe": "French Toast recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["ft1", "ft2", "ft3"]
   },
   {
     "name": "Fruit Smoothie",
     "image": "images/smoothie.jpg",
     "recipe": "Fruit Smoothie recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["smooth1", "smooth2", "smooth3"]
   },
   {
     "name": "Eggs Benedict",
     "image": "images/eggs-benedict.jpg",
     "recipe": "Eggs Benedict recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["eb1", "eb2", "eb3", "eb4", "eb5"]
   },
   {
     "name": "Bagel with Cream Cheese",
     "image": "images/bagel.jpg",
     "recipe": "Bagel with Cream Cheese recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["bagel", "cream cheese"]
   },
   {
     "name": "Belgian Waffles",
     "image": "images/waffle.jpg",
     "recipe": "Belgian Waffles recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["waff1", "waff2", "waff3"]
   },
   {
     "name": "Breakfast Burrito",
     "image": "images/burrito.jpg",
     "recipe": "Breakfast Burrito recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["burr1", "burr2", "burr3", "burr4", "burr5"]
   },
   {
     "name": "Bacon & Eggs",
     "image": "images/bacon.jpg",
     "recipe": "Bacon & Eggs recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["bacon", "eggs"]
   },
   {
     "name": "Crepes",
     "image": "images/crepes.jpg",
     "recipe": "Crepes recipe will go here upon app completion",
-    "ingredients": ["test", "check", "yo", "almost", "word"]
+    "ingredients": ["crep1", "crep2", "crep3", "crep4", "crep5"]
   }
 ]
 
