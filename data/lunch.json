@@ -1,62 +1,153 @@
 [
   {
-    "name": "Noodles",
+    "name": "Feta & Cherry Tomato Pasta",
     "image": "images/noodles.jpg",
-    "recipe": "Noodle recipe will go here upon app completion",
-    "ingredients": ["nood1", "nood2", "nood3", "nood4", "nood5"]
+    "recipe": "1. In a large pot of salted boiling water, cook orecchiette according to package directions until al dente. Drain, then transfer to a large serving bowl.\n\n2. Add pesto and toss pasta until coated. Add tomatoes, feta, and basil and toss. Season to taste with salt and pepper.",
+    "ingredients": [
+      "1 lb. spaghetti",
+      "1 c. pesto",
+      "1 c. cherry tomatoes, halved",
+      "1 c. Feta, crumbled",
+      "Fresh basil, for serving"
+    ]
   },
   {
     "name": "Avocado Toast",
     "image": "images/avocado-toast.jpg",
-    "recipe": "Avocado Toast recipe will go here upon app completion",
-    "ingredients": ["toast1", "toast2", "toast3"]
+    "recipe": "Place ingredients on toast.",
+    "ingredients": [
+      "avocado",
+      "crushed red pepper",
+      "salt",
+      "olive oil"
+    ]
   },
   {
     "name": "Veggie Plate",
     "image": "images/veggies.jpg",
-    "recipe": "Veggie recipe will go here upon app completion",
-    "ingredients": ["veg1", "veg2", "veg3", "veg4", "veg5", "veg6"]
+    "recipe": "Prepare veggies as desired and place on plate.",
+    "ingredients": [
+      "Your favorite veggies"
+    ]
   },
   {
     "name": "Tacos",
     "image": "images/tacos.jpg",
-    "recipe": "Taco recipe will go here upon app completion",
-    "ingredients": ["taco1", "taco2", "taco3", "taco4", "taco5", "taco6", "taco7"]
+    "recipe": "1. In a large skillet over medium-high heat, cook onion until soft, 6 minutes. Add beef and cook until no longer pink, 5 to 7 minutes more, then add tomatoes, black beans, and taco seasoning and season with salt. Stir until combined. Add cheese and stir until completely melted.\n\n2. Spoon mixture into flour tortillas and fold. Garnish with green onions and serve with sour cream.",
+    "ingredients": [
+      "1 large onion, chopped",
+      "1 lb. ground beef",
+      "1 (15-oz.) can fire-roasted tomatoes",
+      "1 (15-oz.) can black beans, drained and rinsed",
+      "1 tbsp. taco seasoning",
+      "kosher salt",
+      "2 c. shredded cheddar or pepper jack",
+      "8 Small flour tortillas",
+      "Sliced green onions, for serving",
+      "Sour cream, for serving"
+    ]
   },
   {
     "name": "Lobster",
     "image": "images/lobster.jpg",
-    "recipe": "Lobster recipe will go here upon app completion",
-    "ingredients": ["lobster1", "lobster2"]
+    "recipe": "1. Preheat a grill or grill pan over medium heat. In a small bowl, whisk together melted butter, lemon juice, zest, chives, parsley, garlic, and salt.\n\n2. Using kitchen shears, cut top of lobster shell from meaty portion of tail. Using a knife, cut halfway through meat down the center, without cutting all the way through. Insert a skewer lengthwise through the lobster to keep lobster from curling up when cooked. \n\n3. Brush all over with oil and season with salt and pepper. Grill flesh side down until lightly charred, about 6 minutes. Flip lobster and dollop a spoonful of butter mixture on flesh side. Grill until just cooked through, about 5 minutes more.\n\n4. Remove lobster from grill and sprinkle with red pepper flakes. Serve with lemon wedges.",
+    "ingredients": [
+      "1/4 c. melted butter",
+      "1 tbsp. lemon juice",
+      "1/2 tsp. lemon zest",
+      "2 tbsp. freshly chopped chives, plus more for garnish",
+      "2 tbsp. freshly chopped parsley, plus more for garnish",
+      "1 clove garlic, minced",
+      "1/4 tsp. kosher salt, plus more for seasoning",
+      "4 (8-oz.) lobster tails",
+      "Extra-virgin olive oil, for brushing",
+      "Freshly ground black pepper",
+      "Pinch of crushed red pepper flakes",
+      "Lemon wedges, for serving"
+    ]
   },
   {
     "name": "Pizza",
     "image": "images/pizza.jpg",
-    "recipe": "Pizza recipe will go here upon app completion",
-    "ingredients": ["pizza1", "pizza2", "pizza3", "pizza4", "pizza5"]
+    "recipe": "1. Grease a large bowl with cooking spray. In a small bowl add water and sugar and stir to dissolve, then sprinkle over yeast and let sit until frothy, about 8 minutes.\n\n2. In another large bowl, add flour, salt, and oil. Pour in yeast mixture, then mix with a wooden spoon until everything is combined and a shaggy dough begins to form. Knead against sides of bowl until dough starts to come together, then turn onto your work surface and knead, adding a pinch of flour if needed, until it feels elastic and only slightly tacky, 5 minutes. Form into a tight ball, place into prepared bowl, and cover with a clean dish towel. Let rise in a warm spot in your kitchen until doubled in size, about 1 hour and 30 minutes.\n\n3. Gently punch down dough, then divide in 2, and roll into balls. At this point, you can freeze one, or make two pizzas. Let dough balls rest as you preheat oven to 500° and grease a large baking sheet with olive oil. Sprinkle all over with 2 tablespoons cornmeal. \n\n4. On your work surface, gently flatten one ball of dough and roll with a rolling pin (or stretch with your hands) until about 12” in diameter (as thin as you can). Carefully transfer to prepared baking sheet and brush dough all over with oil. Then, add your 1/2 cup sauce to middle of dough and spread outwards with a spoon or ladle, leaving about 1” for the crust. Top with half the slices of mozzarella. Bake until crust is golden and cheese is melty, about 15 minutes. \n\n5. Top with fresh basil leaves, a drizzle of olive oil, and red pepper flakes. \n\n6. Repeat with remaining dough and toppings for second pizza. ",
+    "ingredients": [
+      "Cooking spray",
+      "1 1/4 c. lukewarm water",
+      "1 tbsp. granulated sugar",
+      "1 (1/4-oz.) packet active dry yeast (2¼ tsp.)",
+      "3 c. all-purpose flour",
+      "2 tsp. kosher salt",
+      "1/4 c. extra-virgin olive oil",
+      "Extra-virgin olive oil, as needed",
+      "1/4 c. cornmeal, divided",
+      "1 c. marinara, divided",
+      "16 oz. fresh mozzarella, thinly sliced, divided",
+      "Fresh basil leaves",
+      "Pinch red pepper flakes"
+    ]
   },
   {
     "name": "Burgers",
     "image": "images/burger.jpg",
-    "recipe": "Burger recipe will go here upon app completion",
-    "ingredients": ["burger1", "burger2", "burger3"]
+    "recipe": "1. Shape beef into 3 equally sized patties, about 3 1/2\" wide. Season both sides of each patty liberally with salt and pepper. Using your finger, press a shallow indent into the center of each burger. \n\n2. If grilling: Heat grill or grill pan to high. Grill patties until crust develops and they're no longer pink, 6 minutes per side for medium. If using cheese, top on patties 2 to 3 minutes before burger is finished cooking. \n\n3. If cooking in skillet: Heat skillet to medium-high heat and cook patties until crust develops and they're no longer pink, 6 minutes per side for medium. If using cheese, top on patties 2 to 3 minutes before burger is finished cooking. \n\n4. Place patties on buns and add preferred toppings before serving.",
+    "ingredients": [
+      "1 lb. ground beef",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "3 slices cheese, such as yellow cheddar",
+      "3 hamburger buns",
+      "1 large tomato, thinly sliced",
+      "1 small red onion, thinly sliced",
+      "3 leaves butter or iceberg lettuce",
+      "Ketchup",
+      "Mustard",
+      "Mayonnaise"
+    ]
   },
   {
     "name": "Salad",
     "image": "images/salad.jpg",
-    "recipe": "Salad recipe will go here upon app completion",
-    "ingredients": ["salad1", "salad2", "salad3", "salad4", "salad5"]
+    "recipe": "1. Preheat grill or grill pan over high heat.\n\n2. Rinse and dry chicken with paper towels, then drizzle with olive oil and season with salt and pepper. Grill chicken for 2 minutes on each side. (Internal temperature should be 165°.) Transfer to plate to rest and slice on diagonal.\n\n3. In a medium jar add 1 cup cherries, vinegar, 1/4 cup olive oil, salt and pepper. Shake well and refrigerate until ready to serve.\n\n4. Toss together green leaf lettuce, radicchio, green onions, cucumbers and remaining cherries. Shake dressing well and drizzle over salad. Top with grilled chicken and garnish with parsley.",
+    "ingredients": [
+      "1 lb. chicken breast, pounded thin",
+      "1/4 c. extra-virgin olive oil, plus more for drizzling",
+      "kosher salt",
+      "Freshly ground black pepper",
+      "2 c. cherries, pitted and halved, divided",
+      "2 tbsp. red wine vinegar",
+      "1 head green leaf lettuce",
+      "1 c. shredded radicchio",
+      "2 green onions, chopped",
+      "1 c. Sliced Cucumbers",
+      "1/2 c. Freshly Chopped Parsley"
+    ]
   },
   {
     "name": "Grilled Cheese",
     "image": "images/grilled-cheese.jpg",
-    "recipe": "Grilled Cheese recipe will go here upon app completion",
-    "ingredients": ["gc1", "gc2", "gc3"]
+    "recipe": "1. Spread 1 tablespoon butter on one side of each slice of bread. With butter side down, top each slice of bread with about ½ cup cheddar. \n\n2. In a skillet over medium heat, melt 1 tablespoon butter. Add two slices of bread, butter side down. Cook until bread is golden and cheese is starting to melt, about 2 minutes. Flip one piece of bread on top of the other and continue to cook until cheese is melty, about 30 seconds more. \n\n3. Repeat for the second sandwich, wiping skillet clean if necessary. ",
+    "ingredients": [
+      "5 tbsp. butter, softened, divided",
+      "4 slices sourdough bread",
+      "2 c. shredded cheddar"
+    ]
   },
   {
-    "name": "Chicken Wings",
+    "name": "Honey BBQ Wings",
     "image": "images/wings.jpg",
-    "recipe": "Chicken Wing recipe will go here upon app completion",
-    "ingredients": ["cw1", "cw2", "cw3"]
+    "recipe": "1. Preheat oven to 400° and place a wire rack over a baking sheet. In a large bowl, toss chicken wings with oil, paprika, and garlic powder and season with salt and pepper. Transfer to prepared baking sheet.\n\n2. Bake until chicken is golden and skin is crispy, 55 to 60 minutes. Flip halfway through. \n\n3. Meanwhile, make sauce: In a small saucepan over low heat, melt butter. Add barbecue sauce, honey, and hot sauce and bring to a simmer. Let thicken, 5 minutes, then remove from heat.\n\n4. Heat broiler on low. Transfer baked wings to a bowl and toss with sauce until completely coated. Return to rack and broil (watching carefully!) until sauce caramelizes, 3 minutes.\n\n5. Serve with ranch.",
+    "ingredients": [
+      "2 lb. chicken wings",
+      "2 tbsp. extra-virgin olive oil",
+      "1 tbsp. paprika",
+      "1 tbsp. garlic powder",
+      "kosher salt",
+      "Freshly ground black pepper",
+      "4 tbsp. butter",
+      "1 c. barbecue sauce",
+      "1/4 c. honey",
+      "2 tsp. hot sauce (add a couple more dashes if you like heat!)",
+      "Ranch, for dipping"
+    ]
   }
 ]
