@@ -8,38 +8,52 @@
   {
     "name": "Grilled Chicken",
     "image": "images/grilled-chicken.jpg",
-    "recipe": "Grilled Chicken recipe will go here upon app completion",
-    "ingredients": ["gc1", "gc2", "gc3"]
+    "recipe": "1. In a medium bowl, whisk together balsamic vinegar, olive oil, brown sugar, garlic, and dried herbs, and season generously with salt and pepper. Reserve ¼ cup.\n\n2. Add chicken to the bowl and toss to combine. Let marinate at least 20 minutes and up to overnight. \n\n3. Preheat grill to medium high. Add chicken and grill, basting with reserved marinade, until cooked through, 6 minutes per side. \n\n4. Garnish with parsley before serving.",
+    "ingredients": ["1/4 c. balsamic vinegar", "3 tbsp. extra-virgin olive oil", "2 tbsp. brown sugar", "3 cloves garlic, minced", "1 tsp. dried thyme", "1 tsp. dried rosemary", "4 chicken breasts", "Kosher salt", "Freshly ground black pepper", "Freshly chopped parsley, for garnish"]
   },
   {
     "name": "Steak",
     "image": "images/steak.jpg",
-    "recipe": "Steak recipe will go here upon app completion",
-    "ingredients": ["steak1", "steak2"]
+    "recipe": "1. In a medium skillet over medium-high heat, heat oil. Season steak with salt and pepper on both sides. When oil is just about to smoke, add steak. Cook 7 minutes, then flip and add butter. Baste with butter and cook another 5 minutes or until internal temperature reaches 140°, for medium.\n\n2. Remove from pan and let rest 5 minutes before cutting.",
+    "ingredients": ["2 tbsp. extra-virgin olive oil", "Boneless ribeye steak", "Kosher salt", "Freshly ground black pepper", "2 tbsp. butter"]
   },
   {
-    "name": "Salmon",
+    "name": "Honey Garlic Glazed Salmon",
     "image": "images/salmon.jpg",
-    "recipe": "Salmon recipe will go here upon app completion",
-    "ingredients": ["sal1", "sal2", "sal3"]
+    "recipe": "1. In a medium bowl, whisk together honey, soy sauce, lemon juice and red pepper flakes.\n\n2. In a large skillet over medium-high heat, heat two tablespoons oil. When oil is hot but not smoking, add salmon skin-side up and season with salt and pepper. Cook salmon until deeply golden, about 6 minutes, then flip over and add remaining tablespoon of oil.\n\n3. Add garlic to the skillet and cook until fragrant, 1 minute. Add the honey mixture and sliced lemons and cook until sauce is reduced by about 1/3. Baste salmon with the sauce.\n\n4. Garnish with sliced lemon and serve.",
+    "ingredients": ["1/3 c. honey", "1/4 c. soy sauce", "2 tbsp. lemon juice", "1 tsp. red pepper flakes", "3 tbsp. extra-virgin olive oil, divided", "4 6-oz. salmon fillets, patted dry with a paper towel", "Kosher salt", "Freshly ground black pepper", "3 cloves garlic, minced", "1 lemon, sliced into rounds"]
   },
   {
     "name": "Pizza",
     "image": "images/pizza.jpg",
-    "recipe": "Pizza recipe will go here upon app completion",
-    "ingredients": ["pizza1", "pizza2", "pizza3", "pizza4"]
+    "recipe": "1. Grease a large bowl with cooking spray. In a small bowl add water and sugar and stir to dissolve, then sprinkle over yeast and let sit until frothy, about 8 minutes.\n\n2. In another large bowl, add flour, salt, and oil. Pour in yeast mixture, then mix with a wooden spoon until everything is combined and a shaggy dough begins to form. Knead against sides of bowl until dough starts to come together, then turn onto your work surface and knead, adding a pinch of flour if needed, until it feels elastic and only slightly tacky, 5 minutes. Form into a tight ball, place into prepared bowl, and cover with a clean dish towel. Let rise in a warm spot in your kitchen until doubled in size, about 1 hour and 30 minutes.\n\n3. Gently punch down dough, then divide in 2, and roll into balls. At this point, you can freeze one, or make two pizzas. Let dough balls rest as you preheat oven to 500° and grease a large baking sheet with olive oil. Sprinkle all over with 2 tablespoons cornmeal. \n\n4. On your work surface, gently flatten one ball of dough and roll with a rolling pin (or stretch with your hands) until about 12” in diameter (as thin as you can). Carefully transfer to prepared baking sheet and brush dough all over with oil. Then, add your 1/2 cup sauce to middle of dough and spread outwards with a spoon or ladle, leaving about 1” for the crust. Top with half the slices of mozzarella. Bake until crust is golden and cheese is melty, about 15 minutes. \n\n5. Top with fresh basil leaves, a drizzle of olive oil, and red pepper flakes. \n\n6. Repeat with remaining dough and toppings for second pizza. ",
+    "ingredients": [
+      "Cooking spray",
+      "1 1/4 c. lukewarm water",
+      "1 tbsp. granulated sugar",
+      "1 (1/4-oz.) packet active dry yeast (2¼ tsp.)",
+      "3 c. all-purpose flour",
+      "2 tsp. kosher salt",
+      "1/4 c. extra-virgin olive oil",
+      "Extra-virgin olive oil, as needed",
+      "1/4 c. cornmeal, divided",
+      "1 c. marinara, divided",
+      "16 oz. fresh mozzarella, thinly sliced, divided",
+      "Fresh basil leaves",
+      "Pinch red pepper flakes"
+    ]
   },
   {
     "name": "Penne",
     "image": "images/penne.jpg",
-    "recipe": "Penne recipe will go here upon app completion",
-    "ingredients": ["penne1", "penne2", "penne3"]
+    "recipe": "1. In a large pot of salted boiling water, cook penne according to package directions until al dente. Drain, reserving 1 cup pasta water, and return to pot.\n\n2. Meanwhile, in a large skillet over medium heat, heat oil. Add onion and garlic and cook until soft, 5 minutes, then add spinach and roasted red peppers. Cook until wilted and warmed through, 3 minutes.\n\n3. Stir in heavy cream, chicken broth, and 1/4 cup pasta water and bring to a simmer.\n\n4. Add cooked penne to pan and stir until coated, then season with crushed red pepper flakes.\n\n5. Garnish with Parmesan and serve.",
+    "ingredients": ["12 oz. penne", "1 tbsp. extra-virgin olive oil", "1 onion, diced", "2 cloves garlic, minced", "3 c. baby spinach", "1 c. sliced jarred roasted red peppers", "1/2 c. heavy cream", "1/2 c. low-sodium chicken broth", "1 tsp. crushed red pepper flakes", "freshly grated Parmesan, for serving"]
   },
   {
     "name": "BBQ Chicken",
     "image": "images/bbq-chicken.jpg",
-    "recipe": "BBQ Chicken recipe will go here upon app completion",
-    "ingredients": ["bbq1", "bbq2", "bbq3", "bbq4", "bbq5"]
+    "recipe": "1. Make barbecue sauce: In a large bowl, combine ketchup, brown sugar, water, apple cider vinegar, Worcestershire, molasses, and spices. Reserve 1 cup of sauce for later. Add chicken to remaining barbecue sauce. Cover and refrigerate for at least 1 hour and up to overnight.\n\n2. Make chicken: Preheat oven to 425° and line a large baking sheet with foil. Place onions on baking sheet, drizzle with oil, and toss to coat. Place chicken on top of onions, skin side up, and bake until golden and internal temperature reaches 165°, 30 to 40 minutes.\n\n3. Turn oven to broil. Brush chicken with reserved barbecue sauce on both sides and broil until skin is crispy and sauce is thickened, 5 minutes.",
+    "ingredients": ["1 1/2 c. ketchup", "1 c. packed brown sugar", "1/2 c. water", "1/4 c. apple cider vinegar", "1 tbsp. Worcestershire sauce", "1 tbsp. molasses", "1 1/2 tsp. kosher salt", "1/2 tsp. garlic powder", "1/2 tsp. onion powder", "1/4 tsp. ground mustard", "3 lb. bone-in, skin-on chicken thighs, drumsticks, and breasts", "2 large onions, thinly sliced", "1 tbsp. extra-virgin olive oil"]
   },
   {
     "name": "Spaghetti & Meatballs",
