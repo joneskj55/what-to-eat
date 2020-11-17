@@ -3,25 +3,69 @@
     "name": "Pad Thai",
     "image": "images/pad-thai.jpg",
     "recipe": "1. In a large pot of salted boiling water, cook noodles until al dente. Drain.\n\n2. In a small bowl, whisk together lime juice, brown sugar, fish sauce, soy sauce, and cayenne pepper. Set aside.\n\n 3. In a large nonstick pan over medium-high heat, heat oil. Add bell pepper and cook until tender, about 4 minutes. Stir in garlic and cook until fragrant, about 1 minute more. Add the shrimp and season with salt and pepper. Cook until pink, about 2 minutes per side.\n\n4. Push the shrimp and vegetables to one side of the pan and pour in the egg. Scramble until just set then mix with the shrimp mixture. Add the cooked noodles and toss until combined. Pour in the lime juice mixture and toss until the noodles are coated.\n\n5. Garnish with green onions and roasted peanuts before serving.",
-    "ingredients": ["Kosher salt", "8 oz. wide rice noodles", "2 tbsp. lime juice", "2 tbsp. brown sugar", "1 tbsp. fish sauce", "1 tbsp. low-sodium soy sauce", "1/4 tsp. cayenne pepper", "2 tbsp. vegetable oil", "1 bell pepper, thinly sliced", "2 cloves garlic, minced", "2 eggs, lightly whisked", "1 lb. shrimp, peeled and de-veined", "Freshly ground black pepper", "2 green onions, thinly sliced", "1/4 c. roasted peanuts, chopped"]
+    "ingredients": [
+      "Kosher salt",
+      "8 oz. wide rice noodles",
+      "2 tbsp. lime juice",
+      "2 tbsp. brown sugar",
+      "1 tbsp. fish sauce",
+      "1 tbsp. low-sodium soy sauce",
+      "1/4 tsp. cayenne pepper",
+      "2 tbsp. vegetable oil",
+      "1 bell pepper, thinly sliced",
+      "2 cloves garlic, minced",
+      "2 eggs, lightly whisked",
+      "1 lb. shrimp, peeled and de-veined",
+      "Freshly ground black pepper",
+      "2 green onions, thinly sliced",
+      "1/4 c. roasted peanuts, chopped"
+    ]
   },
   {
     "name": "Grilled Chicken",
     "image": "images/grilled-chicken.jpg",
     "recipe": "1. In a medium bowl, whisk together balsamic vinegar, olive oil, brown sugar, garlic, and dried herbs, and season generously with salt and pepper. Reserve ¼ cup.\n\n2. Add chicken to the bowl and toss to combine. Let marinate at least 20 minutes and up to overnight. \n\n3. Preheat grill to medium high. Add chicken and grill, basting with reserved marinade, until cooked through, 6 minutes per side. \n\n4. Garnish with parsley before serving.",
-    "ingredients": ["1/4 c. balsamic vinegar", "3 tbsp. extra-virgin olive oil", "2 tbsp. brown sugar", "3 cloves garlic, minced", "1 tsp. dried thyme", "1 tsp. dried rosemary", "4 chicken breasts", "Kosher salt", "Freshly ground black pepper", "Freshly chopped parsley, for garnish"]
+    "ingredients": [
+      "1/4 c. balsamic vinegar",
+      "3 tbsp. extra-virgin olive oil",
+      "2 tbsp. brown sugar",
+      "3 cloves garlic, minced",
+      "1 tsp. dried thyme",
+      "1 tsp. dried rosemary",
+      "4 chicken breasts",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "Freshly chopped parsley, for garnish"
+    ]
   },
   {
     "name": "Steak",
     "image": "images/steak.jpg",
     "recipe": "1. In a medium skillet over medium-high heat, heat oil. Season steak with salt and pepper on both sides. When oil is just about to smoke, add steak. Cook 7 minutes, then flip and add butter. Baste with butter and cook another 5 minutes or until internal temperature reaches 140°, for medium.\n\n2. Remove from pan and let rest 5 minutes before cutting.",
-    "ingredients": ["2 tbsp. extra-virgin olive oil", "Boneless ribeye steak", "Kosher salt", "Freshly ground black pepper", "2 tbsp. butter"]
+    "ingredients": [
+      "2 tbsp. extra-virgin olive oil",
+      "Boneless ribeye steak",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "2 tbsp. butter"
+    ]
   },
   {
     "name": "Honey Garlic Glazed Salmon",
     "image": "images/salmon.jpg",
     "recipe": "1. In a medium bowl, whisk together honey, soy sauce, lemon juice and red pepper flakes.\n\n2. In a large skillet over medium-high heat, heat two tablespoons oil. When oil is hot but not smoking, add salmon skin-side up and season with salt and pepper. Cook salmon until deeply golden, about 6 minutes, then flip over and add remaining tablespoon of oil.\n\n3. Add garlic to the skillet and cook until fragrant, 1 minute. Add the honey mixture and sliced lemons and cook until sauce is reduced by about 1/3. Baste salmon with the sauce.\n\n4. Garnish with sliced lemon and serve.",
-    "ingredients": ["1/3 c. honey", "1/4 c. soy sauce", "2 tbsp. lemon juice", "1 tsp. red pepper flakes", "3 tbsp. extra-virgin olive oil, divided", "4 6-oz. salmon fillets, patted dry with a paper towel", "Kosher salt", "Freshly ground black pepper", "3 cloves garlic, minced", "1 lemon, sliced into rounds"]
+    "ingredients": [
+      "1/3 c. honey",
+      "1/4 c. soy sauce",
+      "2 tbsp. lemon juice",
+      "1 tsp. red pepper flakes",
+      "3 tbsp. extra-virgin olive oil, divided",
+      "4 6-oz. salmon fillets, patted dry with a paper towel",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "3 cloves garlic, minced",
+      "1 lemon, sliced into rounds"
+    ]
   },
   {
     "name": "Pizza",
@@ -47,30 +91,104 @@
     "name": "Penne",
     "image": "images/penne.jpg",
     "recipe": "1. In a large pot of salted boiling water, cook penne according to package directions until al dente. Drain, reserving 1 cup pasta water, and return to pot.\n\n2. Meanwhile, in a large skillet over medium heat, heat oil. Add onion and garlic and cook until soft, 5 minutes, then add spinach and roasted red peppers. Cook until wilted and warmed through, 3 minutes.\n\n3. Stir in heavy cream, chicken broth, and 1/4 cup pasta water and bring to a simmer.\n\n4. Add cooked penne to pan and stir until coated, then season with crushed red pepper flakes.\n\n5. Garnish with Parmesan and serve.",
-    "ingredients": ["12 oz. penne", "1 tbsp. extra-virgin olive oil", "1 onion, diced", "2 cloves garlic, minced", "3 c. baby spinach", "1 c. sliced jarred roasted red peppers", "1/2 c. heavy cream", "1/2 c. low-sodium chicken broth", "1 tsp. crushed red pepper flakes", "freshly grated Parmesan, for serving"]
+    "ingredients": [
+      "12 oz. penne",
+      "1 tbsp. extra-virgin olive oil",
+      "1 onion, diced",
+      "2 cloves garlic, minced",
+      "3 c. baby spinach",
+      "1 c. sliced jarred roasted red peppers",
+      "1/2 c. heavy cream",
+      "1/2 c. low-sodium chicken broth",
+      "1 tsp. crushed red pepper flakes",
+      "freshly grated Parmesan, for serving"
+    ]
   },
   {
     "name": "BBQ Chicken",
     "image": "images/bbq-chicken.jpg",
     "recipe": "1. Make barbecue sauce: In a large bowl, combine ketchup, brown sugar, water, apple cider vinegar, Worcestershire, molasses, and spices. Reserve 1 cup of sauce for later. Add chicken to remaining barbecue sauce. Cover and refrigerate for at least 1 hour and up to overnight.\n\n2. Make chicken: Preheat oven to 425° and line a large baking sheet with foil. Place onions on baking sheet, drizzle with oil, and toss to coat. Place chicken on top of onions, skin side up, and bake until golden and internal temperature reaches 165°, 30 to 40 minutes.\n\n3. Turn oven to broil. Brush chicken with reserved barbecue sauce on both sides and broil until skin is crispy and sauce is thickened, 5 minutes.",
-    "ingredients": ["1 1/2 c. ketchup", "1 c. packed brown sugar", "1/2 c. water", "1/4 c. apple cider vinegar", "1 tbsp. Worcestershire sauce", "1 tbsp. molasses", "1 1/2 tsp. kosher salt", "1/2 tsp. garlic powder", "1/2 tsp. onion powder", "1/4 tsp. ground mustard", "3 lb. bone-in, skin-on chicken thighs, drumsticks, and breasts", "2 large onions, thinly sliced", "1 tbsp. extra-virgin olive oil"]
+    "ingredients": [
+      "1 1/2 c. ketchup",
+      "1 c. packed brown sugar",
+      "1/2 c. water",
+      "1/4 c. apple cider vinegar",
+      "1 tbsp. Worcestershire sauce",
+      "1 tbsp. molasses",
+      "1 1/2 tsp. kosher salt",
+      "1/2 tsp. garlic powder",
+      "1/2 tsp. onion powder",
+      "1/4 tsp. ground mustard",
+      "3 lb. bone-in, skin-on chicken thighs, drumsticks, and breasts",
+      "2 large onions, thinly sliced",
+      "1 tbsp. extra-virgin olive oil"
+    ]
   },
   {
     "name": "Spaghetti & Meatballs",
     "image": "images/spaghetti.jpg",
-    "recipe": "Spaghetti recipe will go here upon app completion",
-    "ingredients": ["spg1", "spg2", "spg3", "spg4", "spg5"]
+    "recipe": "1. In a large pot of boiling salted water, cook spaghetti according to package instructions. Drain. \n\n2. In a large bowl, combine beef with bread crumbs, parsley, Parmesan, egg, garlic, 1 teaspoon salt, and red pepper flakes. Mix until just combined then form into 16 balls.\n\n3. In a large pot over medium heat, heat oil. Add meatballs and cook, turning occasionally, until browned on all sides, about 10 minutes. Transfer meatballs to a plate.\n\n4. Add onion to pot and cook until soft, 5 minutes. Add crushed tomatoes and bay leaf. Season with salt and pepper and bring to a simmer. Return meatballs to pot and cover. Simmer until sauce has thickened, 8 to 10 minutes.\n\n5. Serve pasta with a healthy scoop of meatballs and sauce. Top with Parmesan before serving.",
+    "ingredients": [
+      "1 lb. spaghetti",
+      "1 lb. ground beef",
+      "1/3 c. bread crumbs",
+      "1/4 c. finely chopped parsley",
+      "1/4 c. freshly grated Parmesan, plus more for serving",
+      "1 egg",
+      "2 garlic cloves, minced",
+      "Kosher salt",
+      "1/2 tsp. red pepper flakes",
+      "2 tbsp. extra-virgin olive oil",
+      "1/2 c. onion, finely chopped",
+      "1 (28-oz.) can crushed tomatoes",
+      "1 bay leaf",
+      "Freshly ground black pepper"
+    ]
   },
   {
     "name": "Stuffed Peppers",
     "image": "images/stuffed-pepper.jpg",
-    "recipe": "Stuffed Peppers recipe will go here upon app completion",
-    "ingredients": ["sp1", "sp2"]
+    "recipe": "1. Preheat oven to 350 degrees F. In a large pot of simmering water, steam peppers until tender, 5 to 7 minutes, then drain and let cool. Once cool, halve and arrange in a large glass baking dish.\n\n2. Meanwhile, in a large bowl, combine black beans, corn, 1/2 cup pepper jack, 2 scallions, chili powder, and hot sauce and season with salt.\n\n3. Spoon black bean mixture into bell peppers and sprinkle with more cheese. Bake until cheese is melted and mixture is warmed through, 7 to 10 minutes.\n\n4. Garnish with scallions and serve.",
+    "ingredients": [
+      "4 bell peppers, tops sliced off",
+      "cans black beans, rinsed",
+      "2 ears corn, kernels stripped",
+      "3/4 c. grated pepper Jack",
+      "3 scallions, thinly sliced",
+      "2 tsp. chili powder",
+      "Couple dashes of hot sauce",
+      "kosher salt"
+    ]
   },
   {
-    "name": "Lasagna",
+    "name": "Lasagna Bolognese",
     "image": "images/lasagna.jpg",
-    "recipe": "Lasagna recipe will go here upon app completion",
-    "ingredients": ["las1", "las2", "las3", "las4", "las5"]
+    "recipe": "1. In a large dutch oven over medium-high heat, heat oil. Add onion, carrot, and celery, and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Stir in beef breaking up meat with back of a spoon. Cook until no longer pink, about 8 minutes. \n\n2. Add wine, and bring mixture to a simmer. Cook until wine is mostly reduced. Stir in tomatoes, tomato paste, stock, and bay leaf, then reduce heat and simmer for 1 hour, allowing flavors to meld. \n\n3. Discard bay leaf, then gradually stir in milk. Let simmer, stirring occasionally, until milk is fully incorporated, about 45 minutes. Season with salt and pepper.\n\n4. Assemble lasagna: Preheat oven to 375°. In a large pot of boiling salted water, cook pasta according to package directions. Drain. \n\n5. In a medium bowl, combine ricotta, egg, ¾ cup Parmesan, oregano, and red pepper flakes. Season with salt and pepper. \n\n6. Add a thin layer of bolognese to the bottom of a 9”-x-13” baking dish. Add a layer of noodles then top with ricotta mixture and sauce, then repeat layers. Top last layer of noodles with bolognese, mozzarella, and remaining ¼ cup Parmesan. \n\n7. Cover with foil and bake for 40 minutes, then remove foil and bake 20 minutes or until cheese is melty and sauce is bubbling. \n\n8. Garnish with parsley before serving. ",
+    "ingredients": [
+      "2 tbsp. extra-virgin olive oil",
+      "1 large onion, chopped",
+      "1 large carrot, peeled and finely chopped",
+      "2 stalks celery, finely chopped",
+      "3 cloves garlic, minced",
+      "2 lb. ground beef",
+      "1/2 c. dry white wine",
+      "2 (28-oz.) cans crushed tomatoes",
+      "1/4 c. tomato paste",
+      "1 c. low-sodium beef (or chicken) broth",
+      "1 bay leaf",
+      "1 c. whole milk",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "1 lb. lasagna noodles",
+      "3 c. ricotta",
+      "1 large egg, beaten",
+      "1 c. freshly grated Parmesan, divided",
+      "1 1/2 tsp. dried oregano",
+      "1/4 tsp. crushed red pepper flakes",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "1 lb. fresh mozzarella, sliced",
+      "Freshly chopped parsley, for serving"
+    ]
   }
 ]
