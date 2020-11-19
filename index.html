@@ -5,7 +5,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-S831PZXZ73"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-S831PZXZ73');
@@ -30,9 +34,12 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h1>Ingredients</h1>
+                <br>
+                <h1 id="recipe-header" class="modal-title"></h1>
+                <br>
+                <h2>Ingredients</h2>
                 <ol id="ingredients" class="ingredients"></ol>
-                <h1>Recipe</h1>
+                <h2>Recipe</h2>
                 <p id="breakfast-recipe" class="recipe"></p>
             </div>
         </div>
@@ -46,9 +53,12 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h1>Ingredients</h1>
+                <br>
+                <h1 id="lunch-modal-header" class="modal-title"></h1>
+                <br>
+                <h2>Ingredients</h2>
                 <ol id="lunch-ingredients" class="ingredients"></ol>
-                <h1>Recipe</h1>
+                <h2>Recipe</h2>
                 <p id="lunch-recipe" class="recipe"></p>
             </div>
         </div>
@@ -62,9 +72,12 @@
             <!-- Modal content -->
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <h1>Ingredients</h1>
+                <br>
+                <h1 id="dinner-modal-header" class="modal-title"></h1>
+                <br>
+                <h2>Ingredients</h2>
                 <ol id="dinner-ingredients" class="ingredients"></ol>
-                <h1>Recipe</h1>
+                <h2>Recipe</h2>
                 <p id="dinner-recipe" class="recipe"></p>
             </div>
         </div>

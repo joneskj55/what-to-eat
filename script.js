@@ -3,6 +3,7 @@ const lunchImg = document.createElement('img');
 const dinnerImg = document.createElement('img');
 let recipe;
 let ingredients;
+let modalTitle;
 
 function getBreakfast() {
     clearIngredientsList();
@@ -15,6 +16,7 @@ function getBreakfast() {
             document.getElementById('breakfast-name').innerText = data[randomMeal].name;
             ingredients = data[randomMeal].ingredients;
             recipe = data[randomMeal].recipe;
+            modalTitle = data[randomMeal].name;
             breakfastImg.src = data[randomMeal].image;
             document.getElementById('breakfast-image').appendChild(breakfastImg);
             showBreakfastInstructions();
@@ -25,6 +27,7 @@ function getBreakfast() {
 }
 
 function getBreakfastRecipe() {
+    document.getElementById('recipe-header').innerText = modalTitle;
     document.getElementById('breakfast-recipe').innerText = recipe;
     let ul = document.getElementById("ingredients");
     for (let i = 0; i < ingredients.length; i++) {
@@ -60,6 +63,7 @@ function getLunch() {
             document.getElementById('lunch-name').innerText = data[randomMeal].name;
             ingredients = data[randomMeal].ingredients;
             recipe = data[randomMeal].recipe;
+            modalTitle = data[randomMeal].name;
             lunchImg.src = data[randomMeal].image;
             document.getElementById('lunch-image').appendChild(lunchImg);
             showLunchInstructions();
@@ -70,6 +74,7 @@ function getLunch() {
 }
 
 function getLunchRecipe() {
+    document.getElementById('lunch-modal-header').innerText = modalTitle;
     document.getElementById('lunch-recipe').innerText = recipe;
     let ul = document.getElementById("lunch-ingredients");
     for (let i = 0; i < ingredients.length; i++) {
@@ -105,6 +110,7 @@ function getDinner() {
             document.getElementById('dinner-name').innerText = data[randomMeal].name;
             ingredients = data[randomMeal].ingredients;
             recipe = data[randomMeal].recipe;
+            modalTitle = data[randomMeal].name;
             dinnerImg.src = data[randomMeal].image;
             document.getElementById('dinner-image').appendChild(dinnerImg);
             showDinnerInstructions();
@@ -115,6 +121,7 @@ function getDinner() {
 }
 
 function getDinnerRecipe() {
+    document.getElementById('dinner-modal-header').innerText = modalTitle;
     document.getElementById('dinner-recipe').innerText = recipe;
     let ul = document.getElementById("dinner-ingredients");
     for (let i = 0; i < ingredients.length; i++) {
