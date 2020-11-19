@@ -115,3 +115,9 @@ button:hover {
         flex-direction: column;
     }
 }
+
+@media (max-width: 613px) {
+    .sub-header {
+        font-size: 1.5em;
+    }
+}
