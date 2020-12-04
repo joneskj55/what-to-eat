@@ -1,7 +1,7 @@
 [
   {
     "name": "Pad Thai",
-    "image": "images/pad-thai.jpg",
+    "image": "images/dinner/pad-thai.jpg",
     "recipe": "1. In a large pot of salted boiling water, cook noodles until al dente. Drain.\n\n2. In a small bowl, whisk together lime juice, brown sugar, fish sauce, soy sauce, and cayenne pepper. Set aside.\n\n 3. In a large nonstick pan over medium-high heat, heat oil. Add bell pepper and cook until tender, about 4 minutes. Stir in garlic and cook until fragrant, about 1 minute more. Add the shrimp and season with salt and pepper. Cook until pink, about 2 minutes per side.\n\n4. Push the shrimp and vegetables to one side of the pan and pour in the egg. Scramble until just set then mix with the shrimp mixture. Add the cooked noodles and toss until combined. Pour in the lime juice mixture and toss until the noodles are coated.\n\n5. Garnish with green onions and roasted peanuts before serving.",
     "ingredients": [
       "Kosher salt",
@@ -23,7 +23,7 @@
   },
   {
     "name": "Grilled Chicken",
-    "image": "images/grilled-chicken.jpg",
+    "image": "images/dinner/grilled-chicken.jpg",
     "recipe": "1. In a medium bowl, whisk together balsamic vinegar, olive oil, brown sugar, garlic, and dried herbs, and season generously with salt and pepper. Reserve ¼ cup.\n\n2. Add chicken to the bowl and toss to combine. Let marinate at least 20 minutes and up to overnight. \n\n3. Preheat grill to medium high. Add chicken and grill, basting with reserved marinade, until cooked through, 6 minutes per side. \n\n4. Garnish with parsley before serving.",
     "ingredients": [
       "1/4 c. balsamic vinegar",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Steak",
-    "image": "images/steak.jpg",
+    "image": "images/dinner/steak.jpg",
     "recipe": "1. In a medium skillet over medium-high heat, heat oil. Season steak with salt and pepper on both sides. When oil is just about to smoke, add steak. Cook 7 minutes, then flip and add butter. Baste with butter and cook another 5 minutes or until internal temperature reaches 140°, for medium.\n\n2. Remove from pan and let rest 5 minutes before cutting.",
     "ingredients": [
       "2 tbsp. extra-virgin olive oil",
@@ -52,7 +52,7 @@
   },
   {
     "name": "Honey Garlic Glazed Salmon",
-    "image": "images/salmon.jpg",
+    "image": "images/dinner/salmon.jpg",
     "recipe": "1. In a medium bowl, whisk together honey, soy sauce, lemon juice and red pepper flakes.\n\n2. In a large skillet over medium-high heat, heat two tablespoons oil. When oil is hot but not smoking, add salmon skin-side up and season with salt and pepper. Cook salmon until deeply golden, about 6 minutes, then flip over and add remaining tablespoon of oil.\n\n3. Add garlic to the skillet and cook until fragrant, 1 minute. Add the honey mixture and sliced lemons and cook until sauce is reduced by about 1/3. Baste salmon with the sauce.\n\n4. Garnish with sliced lemon and serve.",
     "ingredients": [
       "1/3 c. honey",
@@ -68,28 +68,8 @@
     ]
   },
   {
-    "name": "Pizza",
-    "image": "images/pizza.jpg",
-    "recipe": "1. Grease a large bowl with cooking spray. In a small bowl add water and sugar and stir to dissolve, then sprinkle over yeast and let sit until frothy, about 8 minutes.\n\n2. In another large bowl, add flour, salt, and oil. Pour in yeast mixture, then mix with a wooden spoon until everything is combined and a shaggy dough begins to form. Knead against sides of bowl until dough starts to come together, then turn onto your work surface and knead, adding a pinch of flour if needed, until it feels elastic and only slightly tacky, 5 minutes. Form into a tight ball, place into prepared bowl, and cover with a clean dish towel. Let rise in a warm spot in your kitchen until doubled in size, about 1 hour and 30 minutes.\n\n3. Gently punch down dough, then divide in 2, and roll into balls. At this point, you can freeze one, or make two pizzas. Let dough balls rest as you preheat oven to 500° and grease a large baking sheet with olive oil. Sprinkle all over with 2 tablespoons cornmeal. \n\n4. On your work surface, gently flatten one ball of dough and roll with a rolling pin (or stretch with your hands) until about 12” in diameter (as thin as you can). Carefully transfer to prepared baking sheet and brush dough all over with oil. Then, add your 1/2 cup sauce to middle of dough and spread outwards with a spoon or ladle, leaving about 1” for the crust. Top with half the slices of mozzarella. Bake until crust is golden and cheese is melty, about 15 minutes. \n\n5. Top with fresh basil leaves, a drizzle of olive oil, and red pepper flakes. \n\n6. Repeat with remaining dough and toppings for second pizza. ",
-    "ingredients": [
-      "Cooking spray",
-      "1 1/4 c. lukewarm water",
-      "1 tbsp. granulated sugar",
-      "1 (1/4-oz.) packet active dry yeast (2¼ tsp.)",
-      "3 c. all-purpose flour",
-      "2 tsp. kosher salt",
-      "1/4 c. extra-virgin olive oil",
-      "Extra-virgin olive oil, as needed",
-      "1/4 c. cornmeal, divided",
-      "1 c. marinara, divided",
-      "16 oz. fresh mozzarella, thinly sliced, divided",
-      "Fresh basil leaves",
-      "Pinch red pepper flakes"
-    ]
-  },
-  {
     "name": "Penne",
-    "image": "images/penne.jpg",
+    "image": "images/dinner/penne.jpg",
     "recipe": "1. In a large pot of salted boiling water, cook penne according to package directions until al dente. Drain, reserving 1 cup pasta water, and return to pot.\n\n2. Meanwhile, in a large skillet over medium heat, heat oil. Add onion and garlic and cook until soft, 5 minutes, then add spinach and roasted red peppers. Cook until wilted and warmed through, 3 minutes.\n\n3. Stir in heavy cream, chicken broth, and 1/4 cup pasta water and bring to a simmer.\n\n4. Add cooked penne to pan and stir until coated, then season with crushed red pepper flakes.\n\n5. Garnish with Parmesan and serve.",
     "ingredients": [
       "12 oz. penne",
@@ -106,7 +86,7 @@
   },
   {
     "name": "BBQ Chicken",
-    "image": "images/bbq-chicken.jpg",
+    "image": "images/dinner/bbq-chicken.jpg",
     "recipe": "1. Make barbecue sauce: In a large bowl, combine ketchup, brown sugar, water, apple cider vinegar, Worcestershire, molasses, and spices. Reserve 1 cup of sauce for later. Add chicken to remaining barbecue sauce. Cover and refrigerate for at least 1 hour and up to overnight.\n\n2. Make chicken: Preheat oven to 425° and line a large baking sheet with foil. Place onions on baking sheet, drizzle with oil, and toss to coat. Place chicken on top of onions, skin side up, and bake until golden and internal temperature reaches 165°, 30 to 40 minutes.\n\n3. Turn oven to broil. Brush chicken with reserved barbecue sauce on both sides and broil until skin is crispy and sauce is thickened, 5 minutes.",
     "ingredients": [
       "1 1/2 c. ketchup",
@@ -126,7 +106,7 @@
   },
   {
     "name": "Spaghetti & Meatballs",
-    "image": "images/spaghetti.jpg",
+    "image": "images/dinner/spaghetti.jpg",
     "recipe": "1. In a large pot of boiling salted water, cook spaghetti according to package instructions. Drain. \n\n2. In a large bowl, combine beef with bread crumbs, parsley, Parmesan, egg, garlic, 1 teaspoon salt, and red pepper flakes. Mix until just combined then form into 16 balls.\n\n3. In a large pot over medium heat, heat oil. Add meatballs and cook, turning occasionally, until browned on all sides, about 10 minutes. Transfer meatballs to a plate.\n\n4. Add onion to pot and cook until soft, 5 minutes. Add crushed tomatoes and bay leaf. Season with salt and pepper and bring to a simmer. Return meatballs to pot and cover. Simmer until sauce has thickened, 8 to 10 minutes.\n\n5. Serve pasta with a healthy scoop of meatballs and sauce. Top with Parmesan before serving.",
     "ingredients": [
       "1 lb. spaghetti",
@@ -147,7 +127,7 @@
   },
   {
     "name": "Stuffed Peppers",
-    "image": "images/stuffed-pepper.jpg",
+    "image": "images/dinner/stuffed-pepper.jpg",
     "recipe": "1. Preheat oven to 350 degrees F. In a large pot of simmering water, steam peppers until tender, 5 to 7 minutes, then drain and let cool. Once cool, halve and arrange in a large glass baking dish.\n\n2. Meanwhile, in a large bowl, combine black beans, corn, 1/2 cup pepper jack, 2 scallions, chili powder, and hot sauce and season with salt.\n\n3. Spoon black bean mixture into bell peppers and sprinkle with more cheese. Bake until cheese is melted and mixture is warmed through, 7 to 10 minutes.\n\n4. Garnish with scallions and serve.",
     "ingredients": [
       "4 bell peppers, tops sliced off",
@@ -162,7 +142,7 @@
   },
   {
     "name": "Lasagna Bolognese",
-    "image": "images/lasagna.jpg",
+    "image": "images/dinner/lasagna.jpg",
     "recipe": "1. In a large dutch oven over medium-high heat, heat oil. Add onion, carrot, and celery, and cook until soft, 5 minutes. Add garlic and cook until fragrant, 1 minute more. Stir in beef breaking up meat with back of a spoon. Cook until no longer pink, about 8 minutes. \n\n2. Add wine, and bring mixture to a simmer. Cook until wine is mostly reduced. Stir in tomatoes, tomato paste, stock, and bay leaf, then reduce heat and simmer for 1 hour, allowing flavors to meld. \n\n3. Discard bay leaf, then gradually stir in milk. Let simmer, stirring occasionally, until milk is fully incorporated, about 45 minutes. Season with salt and pepper.\n\n4. Assemble lasagna: Preheat oven to 375°. In a large pot of boiling salted water, cook pasta according to package directions. Drain. \n\n5. In a medium bowl, combine ricotta, egg, ¾ cup Parmesan, oregano, and red pepper flakes. Season with salt and pepper. \n\n6. Add a thin layer of bolognese to the bottom of a 9”-x-13” baking dish. Add a layer of noodles then top with ricotta mixture and sauce, then repeat layers. Top last layer of noodles with bolognese, mozzarella, and remaining ¼ cup Parmesan. \n\n7. Cover with foil and bake for 40 minutes, then remove foil and bake 20 minutes or until cheese is melty and sauce is bubbling. \n\n8. Garnish with parsley before serving. ",
     "ingredients": [
       "2 tbsp. extra-virgin olive oil",
@@ -189,6 +169,28 @@
       "Freshly ground black pepper",
       "1 lb. fresh mozzarella, sliced",
       "Freshly chopped parsley, for serving"
+    ]
+  },
+  {
+    "name": "Chicken Chili (Gluten-Free)",
+    "image": "images/dinner/chili.jpg",
+    "recipe": "1. Heat oil in a pot over medium heat, add the onion and pepper and sauté for 5 mins until softened. \n\n2. Stir in the garlic followed by the ground chicken and brown it making sure to break it up. \n\n3. Add in the beans, spices, chopped tomatoes, chicken stock and balsamic vinegar and salt, stir everything well.\n\nTips: You can add more heat if you prefer. You can also substitute the kidney beans with black-eyed beans, borlotti beans (cranberry beans), etc. \n\n4. Cover (leaving slightly ajar) and simmer for 25 mins until slightly thicker and reduced. \n\n5. Garnish and serve.",
+    "ingredients": [
+      "1 tbsp vegetable oil",
+      "1 onion finely diced",
+      "1 red bell pepper, deseeded and finely diced",
+      "2 garlic cloves minced",
+      "450 g (1 lb) mince lean chicken (or turkey)",
+      "400 g tin (14.5 oz can) of kidney beans, rinsed and drained",
+      "1 tbsp ground cumin",
+      "1 tsp ground coriander optional",
+      "1 tsp dried oregano",
+      "0.5 tsp chilli powder",
+      "0.5 tsp smoked paprika",
+      "400 g (14.5 oz) chopped tomatoes",
+      "3 tbsp chicken stock",
+      "1 tbsp balsamic vinegar",
+      "salt"
     ]
   }
 ]

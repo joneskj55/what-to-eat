@@ -1,7 +1,7 @@
 [
   {
     "name": "Omelettes",
-    "image": "images/omelette.jpg",
+    "image": "images/breakfast/omelette.jpg",
     "recipe": "1. In a medium bowl, beat eggs until no whites remain, then season with salt, pepper, and a pinch of red pepper flakes.\n\n2. In a medium non-stick skillet over medium heat, melt butter. Pour in eggs and tilt pan so eggs fully cover the entire pan. As eggs start to set, use a rubber spatula to drag cooked edges into center of pan. Tilt pan to let uncooked egg fall to the edge of the pan. \n\n3. Once the bottom is set, but top is still a little wet, sprinkle cheese and chives on one half of omelet. Fold other side over cheese and slide omelet onto a plate.",
     "ingredients": [
       "2 large eggs",
@@ -15,7 +15,7 @@
   },
   {
     "name": "Pancakes",
-    "image": "images/pancakes.jpg",
+    "image": "images/breakfast/pancakes.jpg",
     "recipe": "1. Mix flour, baking powder, salt, and sugar in a large bowl. In a medium bowl, whisk to combine egg yolk, vanilla, milk, and melted butter. Gently fold dry ingredients into wet ingredients until just combined.\n\n2. In another medium bowl, using a hand mixer, beat egg white until stiff peaks form. Fold egg white into batter gently with a rubber spatula until just combined.\n\n3. In a large frying pan over medium heat, melt 1 tablespoon butter. Pour about 1/4 cup pancake batter into pan. When little bubbles appear, about 1 to 2 minutes, flip and continue cooking until both sides are lightly golden. Repeat with remaining batter.\n\n4. Serve with maple syrup.",
     "ingredients": [
       "1 1/2 c. all-purpose flour",
@@ -31,7 +31,7 @@
   },
   {
     "name": "French Toast",
-    "image": "images/french-toast.jpg",
+    "image": "images/breakfast/french-toast.jpg",
     "recipe": "1. In a large mixing bowl, whisk together eggs, milk, sugar, vanilla, cinnamon, and nutmeg. In a large skillet over medium heat, melt butter.\n\n2. Working in batches, coat bread with egg mixture and place in heated skillet. Cook until each side is golden, 2 to 3 minutes per side. Serve with warm maple syrup and butter.",
     "ingredients": [
       "4 large eggs",
@@ -48,7 +48,7 @@
   },
   {
     "name": "Fruit Smoothie",
-    "image": "images/smoothie.jpg",
+    "image": "images/breakfast/smoothie.jpg",
     "recipe": "1. In a blender, combine all ingredients and blend until smooth. \n\n2. Divide between 2 cups and top with blackberries, if desired.",
     "ingredients": [
       "1 banana",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Eggs Benedict",
-    "image": "images/eggs-benedict.jpg",
+    "image": "images/breakfast/eggs-benedict.jpg",
     "recipe": "1. Poach eggs: Fill a large saucepan with 2 inches water and bring to a boil. Reduce heat to a bare simmer. Break 1 egg into a small bowl and gently tip into the pan. Use a spatula to gently lift the egg from the bottom of the pan. Repeat with remaining 3 eggs and cook until the whites are just set, but the yolks are still runny, about 3 minutes. Using a slotted spoon, remove the eggs to a paper towel–lined plate to drain.\n\n2. In a large skillet over medium-high heat, melt butter. Add Canadian bacon and cook, flipping once, until golden on both sides, about 4 minutes. \n\n3. Arrange bacon on top of English muffin halves and top with poached eggs.\n\n4. Make sauce: In a blender, combine egg yolks, water, lemon juice, and salt and blend until frothy. With blender running, pour in hot melted butter in a very thin stream, blending until sauce is thick and emulsified. \n\n5. Spoon sauce over eggs. Sprinkle with chives and season with salt and pepper. Serve immediately.",
     "ingredients": [
       "4 large eggs, plus 2 large egg yolks",
@@ -77,7 +77,7 @@
   },
   {
     "name": "Bagel with Cream Cheese",
-    "image": "images/bagel.jpg",
+    "image": "images/breakfast/bagel.jpg",
     "recipe": "1. Toast a bagel. \n\n2. Spread cream cheese on the bagel.",
     "ingredients": [
       "Bagel",
@@ -86,7 +86,7 @@
   },
   {
     "name": "Belgian Waffles",
-    "image": "images/waffle.jpg",
+    "image": "images/breakfast/waffle.jpg",
     "recipe": "1. In a large bowl, whisk together flour, sugar, baking powder, salt, and baking soda. In a separate bowl, whisk together sour cream, milk, butter and egg yolks. Gently old wet mixture into dry mixture. \n\n2. In a large bowl, using a hand mixer (or in the bowl of a stand mixer), beat egg whites until stiff peaks form. Fold whipped egg whites into batter, being careful not to over mix.  (A few fluffy streaks of whites are fine!) \n\n3. Heat waffle iron according to manufacturer’s instruction. When the iron is hot, brush grates with melted butter. Spoon about ⅓ cup of batter into waffle maker and cook until golden, about 5 minutes. Repeat with remaining batter.",
     "ingredients": [
       "2 c. all-purpose flour",
@@ -102,7 +102,7 @@
   },
   {
     "name": "Breakfast Burrito",
-    "image": "images/burrito.jpg",
+    "image": "images/breakfast/burrito.jpg",
     "recipe": "1. In a large skillet over medium heat, cook bacon, working in batches if necessary, until crispy, about 8 minutes per batch. Drain on a paper towel-lined plate and pour off half the fat.\n\n2. Cook hash browns according to package directions in bacon fat and transfer to a plate.\n\n3. In a medium bowl, whisk together eggs and milk. Wipe out skillet, place over medium heat, and melt butter. When butter is just starting to foam, reduce heat to medium-low and add beaten eggs. Using a rubber spatula, stir every occasionally until soft curds form. Season with salt and pepper.\n\n4. Assemble burritos: In the center of each tortilla, layer hash browns, scrambled eggs, cheese, two slices of bacon, and sliced avocado. Fold in the two sides and roll up tightly. Serve with hot sauce.",
     "ingredients": [
       "8 slices bacon",
@@ -120,7 +120,7 @@
   },
   {
     "name": "Bacon & Eggs",
-    "image": "images/bacon.jpg",
+    "image": "images/breakfast/bacon.jpg",
     "recipe": "1. Cook eggs as desired. \n\n2. Cook bacon.",
     "ingredients": [
       "Bacon",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Crepes",
-    "image": "images/crepes.jpg",
+    "image": "images/breakfast/crepes.jpg",
     "recipe": "1. In a large mixing bowl whisk the flour, sugar and salt until combined. Then create a well with flour and add the eggs. Gradually pour in milk, whisking to combine after each addition. Let batter stand at room temperature until slightly bubbly on top, 15 to 20 minutes.\n\n2. In a small skillet over medium heat, melt butter. About 1/4 cup at a time, drop batter evenly onto pan, swirling it to evenly coat.\n\n3. Cook 2 minutes, then flip and cook 1 minute more. Repeat with remaining batter. \n\n4. Serve crêpes warm with fresh fruit and powdered sugar.",
     "ingredients": [
       "1 c. all-purpose flour",
