@@ -6,8 +6,10 @@ This app was built for those moments when no one can decide what to eat. This ap
 
 ## Home Page
 ![home page](images/readme/home.png "Home Page")
-### Lunch selected
+___
+### User clicks lunch button...
 ![lunch](images/readme/lunch.png "Lunch")
+___
 ### User clicks image for recipe
 ![recipe](images/readme/recipe.png "Recipe")
 
