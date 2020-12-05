@@ -4,8 +4,12 @@ What To Eat is an application that helps users who can't decide what they want t
 # Motivation
 This app was built for those moments when no one can decide what to eat. This app allows users to click a button and have a random meal choice presented to them. If the user likes the chosen meal, they can click on the image and the recipe will be presented to them. If they don't want the meal, they can simply re-click the button for another random meal option.
 
-# Home Page
+## Home Page
 ![home page](home.png "Home Page")
+### Lunch selected
+![lunch](lunch.png "Lunch")
+### User clicks image for recipe
+![recipe](recipe.png "Recipe")
 
 # Contributing
 Contributions are welcome! If you notice a bug or have a feature in mind feel free to open an issue or pull request.
