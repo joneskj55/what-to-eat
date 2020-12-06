@@ -42,6 +42,7 @@ button {
     letter-spacing: 0.07em;
     line-height: 24px;
     color: orangered;
+    background-color: black;
     width: 140px;
     padding: 10px;
     border-radius: 85px;
@@ -49,7 +50,7 @@ button {
 }
 
 button:hover {
-    background-color: black;
+    background-color: #000000d6;
     cursor: pointer;
 }
 
