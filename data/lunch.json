@@ -173,5 +173,14 @@
       "1/2 tsp Cumin, ground",
       "1 Corn tortillas"
     ]
+  },
+  {
+    "name": "Two Ingredient Pizza Dough",
+    "image": "images/lunch/pizza-dough.jpg",
+    "recipe": "1. Preheat oven to 425 degrees Fahrenheit.\n\n2. Mix the flour and yogurt in a large bowl until a dough starts to form. Lightly dust flour on your work surface or baking sheet and knead the dough until it is smooth, using additional flour if necessary. Roll dough into a ball and use a rolling pin to roll out into a pizza crust.\n\n3.  Dust baking sheet with flour and place dough on top. Top the dough with your favorite toppings, leaving a half-inch border around the edge. Bake for 8-10 minutes until crust is golden brown. Cool for 3-4 minutes before serving.",
+    "ingredients": [
+      "2 cups self-rising flour, with extra for dusting",
+      "2 cup FAGE Total 5%, FAGE Total 2% or FAGE Total 0%"
+    ]
   }
 ]
