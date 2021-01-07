@@ -180,3 +180,9 @@ button:hover {
     margin-top: .5rem;
     outline   : none;
 }
+
+@media (max-width: 768px) {
+    .searchForm {
+        display: none;
+    }
+}
