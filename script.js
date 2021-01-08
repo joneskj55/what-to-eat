@@ -177,8 +177,7 @@ let searchingData = async e => {
             document.querySelector('#search-image').style.display = 'block';
             searchedResult(Data[i], SearchedData);
             break;
-        }
-        else {
+        } else {
             notFound.style.display = 'none';
             counter++;
             document.querySelector('#search-image').style.display = 'none';
@@ -220,7 +219,6 @@ let showSearchedItemRecipe = () => {
     document.getElementById('search-recipe').classList.remove('hidden');
     document.getElementById('search-click-instructions').className = 'hidden';
 }
-
 
 
 // Get the modal
