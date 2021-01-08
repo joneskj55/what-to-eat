@@ -15,6 +15,7 @@ body {
 .header {
     text-align: center;
     font-size: 60px;
+    margin-top: 3%;
 }
 
 .sub-header {
@@ -150,35 +151,60 @@ button:hover {
     flex-direction: column;
 }
 
-.searchForm__Input {
-    font-size: 17px;
-    outline: none;
-    padding: 10px;
-    border-radius: 10rem;
-    width: 30%;
-
-}
-
 .searchedSections {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.searchForm__Input:focus {
-    box-shadow: 1px 1px 4px 3px #ff4500;
-    border: none;
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
 }
 
-.searchForm__Options {
-    width: 15rem;
-    padding: 10px;
-    margin: .5rem 0rem 0rem 0rem;
-}
-
-.searchForm__Button {
-    margin-top: .5rem;
+.searchTerm {
+    width: 100%;
+    border: 3px solid black;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
     outline: none;
+    color: black;
+}
+
+.searchTerm:focus {
+    color: black;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid black;
+    background: black;
+    text-align: center;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1px;
+}
+
+.searchButton:hover {
+    color: white;
+    border: orangered;
+    background-color: orangered;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {

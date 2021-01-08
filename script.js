@@ -155,9 +155,20 @@ let searchingData = async e => {
     clearSearch();
     let Data = [];
     e.preventDefault();
-    let SearchedOption = document.querySelector('#searchedOption').value;
 
-    await fetch(`data/${SearchedOption}.json`)
+    await fetch(`data/breakfast.json`)
+        .then(response => response.json())
+        .then(data => data.map(dataChunks => {
+            Data.push(dataChunks);
+        }))
+
+    await fetch(`data/lunch.json`)
+        .then(response => response.json())
+        .then(data => data.map(dataChunks => {
+            Data.push(dataChunks);
+        }))
+
+    await fetch(`data/dinner.json`)
         .then(response => response.json())
         .then(data => data.map(dataChunks => {
             Data.push(dataChunks);

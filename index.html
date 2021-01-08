@@ -24,15 +24,17 @@
 </head>
 
 <body>
+
 <form class="searchForm">
-    <input placeholder="Enter a dish name" type="text" class="searchForm__Input" id="searchedData">
-    <select class="searchForm__Options" id="searchedOption">
-        <option>Select a Category</option>
-        <option>breakfast</option>
-        <option>dinner</option>
-        <option>lunch</option>
-    </select>
-    <button class="searchForm__Button" type="submit">Search</button>
+    <div class="wrap">
+        <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?" id="searchedData">
+            <button type="submit" class="searchButton">
+                <i class="fas fa-search"></i>
+            </button>
+
+        </div>
+    </div>
     <div class="searchedSections">
         <h2 id="search-name"></h2>
         <div onclick="showSearchedItemRecipe()" id="search-image"></div>
@@ -53,9 +55,9 @@
         </div>
     </div>
 </form>
+
 <h1 class="header">What To Eat</h1>
 <h2 class="sub-header"><span>Can't decide what to eat?</span> <br> Click below for some inspiration.</h2>
-
 
 <div class="container">
     <div class="sections">
