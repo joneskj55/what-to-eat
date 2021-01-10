@@ -76,15 +76,6 @@
     ]
   },
   {
-    "name": "Bagel with Cream Cheese",
-    "image": "images/breakfast/bagel.jpg",
-    "recipe": "1. Toast a bagel. \n\n2. Spread cream cheese on the bagel.",
-    "ingredients": [
-      "Bagel",
-      "Cream cheese"
-    ]
-  },
-  {
     "name": "Belgian Waffles",
     "image": "images/breakfast/waffle.jpg",
     "recipe": "1. In a large bowl, whisk together flour, sugar, baking powder, salt, and baking soda. In a separate bowl, whisk together sour cream, milk, butter and egg yolks. Gently old wet mixture into dry mixture. \n\n2. In a large bowl, using a hand mixer (or in the bowl of a stand mixer), beat egg whites until stiff peaks form. Fold whipped egg whites into batter, being careful not to over mix.  (A few fluffy streaks of whites are fine!) \n\n3. Heat waffle iron according to manufacturer’s instruction. When the iron is hot, brush grates with melted butter. Spoon about ⅓ cup of batter into waffle maker and cook until golden, about 5 minutes. Repeat with remaining batter.",
@@ -140,6 +131,17 @@
       "1 tbsp. butter",
       "Fresh fruit, for serving",
       "Powdered sugar, for serving"
+    ]
+  },
+  {
+    "name": "2-Ingredient Dough Bagels",
+    "image": "images/breakfast/bagel.jpg",
+    "recipe": "1. Preheat oven to 400°F(200°C).\n\n2. In a large bowl, mix the self-rising flour and greek yogurt until it comes together to form a ball.\n\n3. Transfer the dough ball to a lightly floured work surface and use your hands to begin flattening and shaping the rough into a roughly 8-inch (20 cm) disk.\n\n4. Using a bench scraper or knife, cut the dough into 4 equal pieces.\n\n5. One at a time, roll each piece of dough into a log roughly 8 inches (20 cm) long. Shape the log into a ring and transfer to a parchment paper-lined baking sheet.\n\n6. Brush the tops of the bagels with egg wash and sprinkle generously with everything seasoning.\n\n7. Bake for 20-25 minutes, until the bagels are golden brown.\n\n8. Enjoy!",
+    "ingredients": [
+      "1 ¾ cups self-rising flour, plus more for dusting",
+      "1 cup greek yogurt",
+      "1 egg, beaten",
+      "4 tablespoons everything seasoning, to taste"
     ]
   }
 ]
