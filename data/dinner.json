@@ -223,5 +223,23 @@
       "1 tablespoon sliced green onions",
       "salt and pepper to taste"
     ]
+  },
+  {
+    "name": "Tuscan White Bean Skillet",
+    "image": "images/dinner/tuscan-bean.jpg",
+    "recipe": "1. Warm olive oil in a large skillet over medium heat until shimmering. Add onions and cook for 3-4 minutes, until slightly softened. Add sun-dried tomatoes and garlic and cook for an additional 60 seconds, until fragrant.\n\n2. Add beans, diced tomatoes, artichoke hearts, oregano, and thyme to the skillet. Stir to combine. Keep heat on medium, cover the pan, and cook for 8 minutes.\n\n3. Uncover the skillet and add the kale, stirring for 2-3 minutes, until it wilts. Season with salt and pepper to taste and serve.",
+    "ingredients": [
+      "1 tbsp extra virgin olive oil",
+      "1 large onion diced (about 1 1/2 cups)",
+      "1/2 cup oil-packed sun-dried tomatoes drained and roughly chopped",
+      "4 cloves garlic minced",
+      "2 (14.5 oz) cans white Cannelini beans, drained and rinsed",
+      "1 (14.5 oz) can diced tomatoes",
+      "1 (14.5 oz) can artichoke hearts, drained and roughly chopped",
+      "1 tsp dried oregano",
+      "1 tsp dried thyme",
+      "2 cups kale chopped",
+      "salt and pepper"
+    ]
   }
 ]
