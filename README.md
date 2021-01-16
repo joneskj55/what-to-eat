@@ -14,6 +14,6 @@ ___
 ![recipe](images/readme/recipe.png "Recipe")
 
 # Contributing
-Contributions are welcome! If you notice a bug or have a feature in mind feel free to open an issue or pull request.
+Contributions are welcome! If you notice a bug or have a feature in mind feel free to either post it in the Discussions tab, open an issue, or submit a pull request.
 ## Add a meal choice
 If you have a meal option that you think should be added to the app, please feel free to open a pull request. Simply add the meal to the respective `json` file and an image in the `images` folder.
