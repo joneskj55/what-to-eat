@@ -1,203 +1,207 @@
 body {
-    overflow-x: hidden;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo,
+    ＭＳ Ｐゴシック, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
 }
 
 .main {
-    text-align: center;
+  text-align: center;
 }
 
 .error {
-    font-size: 10em;
-    color: #f7e016;
+  font-size: 10em;
+  color: #f7e016;
 }
 
 .header {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 3%;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 3%;
 }
 
 .sub-header {
-    text-align: center;
-    font-size: 50px;
+  text-align: center;
+  font-size: 50px;
 }
 
 span {
-    color: orangered;
+  color: orangered;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
 }
 
 .sections {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 img {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 button {
-    margin: 20px;
-    margin-top: 0px;
-    font-size: 16px;
-    letter-spacing: 0.07em;
-    line-height: 24px;
-    color: orangered;
-    background-color: black;
-    width: 140px;
-    padding: 10px;
-    border-radius: 85px;
-    border: none;
+  margin: 20px;
+  margin-top: 0px;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  line-height: 24px;
+  color: orangered;
+  background-color: black;
+  width: 140px;
+  padding: 10px;
+  border-radius: 85px;
+  border: none;
 }
 
 button:hover {
-    background-color: #000000d6;
-    cursor: pointer;
+  background-color: #000000d6;
+  cursor: pointer;
 }
 
 /*RECIPE MODAL*/
 .modal-title {
-    color: orangered;
+  color: orangered;
 }
 
 .recipe {
-    text-align: left;
+  text-align: left;
 }
 
 .ingredients {
-    text-align: left;
+  text-align: left;
 }
 
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto; /* 5% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 5% auto; /* 5% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media (max-width: 920px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .sections {
-        flex-flow: row wrap;
-        flex-direction: column;
-    }
+  .sections {
+    flex-flow: row wrap;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 613px) {
-    .sub-header {
-        font-size: 1.5em;
-    }
+  .sub-header {
+    font-size: 1.5em;
+  }
 }
 
 /* -------------------- For Search ---------------------- */
 
 .searchForm {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .searchedSections {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .search {
-    width: 100%;
-    position: relative;
-    display: flex;
+  width: 100%;
+  position: relative;
+  display: flex;
 }
 
 .searchTerm {
-    width: 100%;
-    border: 3px solid black;
-    border-right: none;
-    padding: 5px;
-    height: 20px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: black;
+  width: 100%;
+  border: 3px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
 }
 
 .searchTerm:focus {
-    color: black;
+  color: black;
 }
 
 .searchButton {
-    width: 40px;
-    height: 36px;
-    border: 1px solid black;
-    background: black;
-    text-align: center;
-    color: white;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-    margin: 0;
-    line-height: 1px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1px;
 }
 
 .searchButton:hover {
-    color: white;
-    border: orangered;
-    background-color: orangered;
+  color: white;
+  border: orangered;
+  background-color: orangered;
 }
 
 .wrap {
-    width: 30%;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 30%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
-    .searchForm {
-        display: none;
-    }
+  .searchForm {
+    display: none;
+  }
 }
