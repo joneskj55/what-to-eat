@@ -241,17 +241,20 @@
       "2 cups kale chopped",
       "salt and pepper"
     ]
-  }, 
+  },
   {
-    "name": "Feta & Cherry Tomato Pasta",
+    "name": "Garlic Parmesan Pasta",
     "image": "images/lunch/noodles.jpg",
-    "recipe": "1. In a large pot of salted boiling water, cook orecchiette according to package directions until al dente. Drain, then transfer to a large serving bowl.\n\n2. Add pesto and toss pasta until coated. Add tomatoes, feta, and basil and toss. Season to taste with salt and pepper.",
+    "recipe": "1. Melt butter in a large skillet over medium high heat. Add garlic and cook, stirring frequently, until fragrant, about 1-2 minutes.\n\n2. Stir in chicken broth, milk and fettuccine; season with salt and pepper, to taste.\n\n3. Bring to a boil; reduce heat and simmer, stirring occasionally, until pasta is cooked through, about 18-20 minutes. Stir in Parmesan. If the mixture is too thick, add more milk as needed until desired consistency is reached.\n\n4. Serve immediately, garnished with parsley, if desired.",
     "ingredients": [
-      "1 lb. spaghetti",
-      "1 c. pesto",
-      "1 c. cherry tomatoes, halved",
-      "1 c. Feta, crumbled",
-      "Fresh basil, for serving"
+      "2 tablespoons unsalted butter",
+      "4 cloves garlic, minced",
+      "2 cups chicken broth",
+      "1 cup milk, or more, as needed",
+      "8 ounces uncooked fettuccine",
+      "Kosher salt and freshly ground black pepper, to taste",
+      "1/4 cup freshly grated Parmesan cheese",
+      "2 tablespoons chopped fresh parsley leaves"
     ]
   }
 ]
